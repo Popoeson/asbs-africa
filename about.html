@@ -3,19 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASBS Africa — about</title>
+  <title>About ASBS Africa</title>
+  <meta name="description" content="A decade of teaching sustainable practice to the people who actually run Africa's enterprises. Our history, mission and leadership team.">
+
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages/about.css">
 </head>
 <body>
+
   <div id="site-header"></div>
 
-  <section class="section container">
-    <h1>Coming soon</h1>
-    <p>This page is next in the build queue.</p>
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <span class="eyebrow" style="color:var(--color-sage);">About ASBS Africa</span>
+      <h1>Built in Africa, for African Business</h1>
+      <p>A decade of teaching sustainable practice to the people who actually run the continent's enterprises — traders, manufacturers, cooperative chairs and chief executives.</p>
+    </div>
+  </section>
+
+  <!-- History + Mission (alternating) -->
+  <section class="section">
+    <div class="container">
+
+      <div class="about-block">
+        <div class="about-block__image-placeholder">History photo — community hall session</div>
+        <div>
+          <span class="eyebrow">Our History</span>
+          <h2>Started in a Community Hall, Not a Boardroom</h2>
+          <p>ASBS Africa began in 2016 as a series of weekend clinics for traders and small manufacturers who kept being told to "go green" without anyone explaining what it would cost them.</p>
+          <p>Those first sessions set the method we still use: start from the business as it actually operates, work out what a sustainable version looks like on a real balance sheet, and only then talk about frameworks.</p>
+        </div>
+      </div>
+
+      <div class="about-block about-block--reverse">
+        <div class="about-block__image-placeholder">Mission photo — workshop session</div>
+        <div>
+          <span class="eyebrow">Our Mission</span>
+          <h2>Make Sustainable Practice the Profitable Choice</h2>
+          <p>We train African entrepreneurs and business leaders to run enterprises that are durable — environmentally, socially and commercially. Every programme ends with something a participant can act on that month.</p>
+          <p>Faculty are practitioners first. Our case material is African, our cohorts are small enough for real conversation, and our teaching is judged on what changes in the business afterwards.</p>
+          <p>Today that means partner universities in every African region, so that the thinking taught here is simply how business is taught. We measure progress in enterprises still trading and still improving three years out — not in seats filled.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Impact stats (same content as homepage) -->
+  <section class="section bg-sage">
+    <div class="container">
+      <span class="eyebrow" style="color:rgba(255,255,255,0.85);">Our Impact So Far</span>
+      <div class="stats-grid" style="margin-top:24px;">
+        <div class="stat">
+          <div class="stat__number">500+</div>
+          <p>Entrepreneurs and leaders trained</p>
+        </div>
+        <div class="stat">
+          <div class="stat__number">12</div>
+          <p>Partner institutions across Africa</p>
+        </div>
+        <div class="stat">
+          <div class="stat__number">9</div>
+          <p>Countries with active cohorts</p>
+        </div>
+        <div class="stat">
+          <div class="stat__number">87%</div>
+          <p>Alumni reporting measurable impact</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <div class="leadership-intro">
+        <span class="eyebrow">Leadership</span>
+        <h2>The People Who Teach Here</h2>
+        <p>Faculty and directors are practitioners first — bankers, economists and operators who still work in the sectors they teach.</p>
+      </div>
+
+      <div class="team-grid" id="teamGrid">
+        <!-- Rendered by assets/js/pages/about.js from data/team.json -->
+      </div>
+    </div>
   </section>
 
   <div id="site-footer"></div>
+
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/pages/about.js"></script>
 </body>
 </html>
