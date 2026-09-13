@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sustainable-enterprise-foundations",
+    "category": "Enterprise",
+    "title": "Sustainable Enterprise Foundations",
+    "tagline": "Build a business model that holds up environmentally and financially.",
+    "description": "A practical grounding in circular business models, resource efficiency and impact measurement. Participants leave with a costed sustainability roadmap for their own enterprise and a reporting framework they can take to lenders and partners.",
+    "whoFor": "Founders and owner-managers of SMEs",
+    "format": "Hybrid — Nairobi campus + online",
+    "duration": "10 weeks",
+    "image": "assets/images/placeholders/programme-enterprise.svg"
+  },
+  {
+    "id": "responsible-leadership-intensive",
+    "category": "Leadership",
+    "title": "Responsible Leadership Intensive",
+    "tagline": "Lead teams and boards through the transition to sustainable operations.",
+    "description": "An executive intensive on governance, stakeholder negotiation and change leadership. Delivered through live case clinics drawn from African firms, with a peer cohort of senior leaders and a personal leadership review at the close.",
+    "whoFor": "Senior executives and board members",
+    "format": "In person — residential",
+    "duration": "5 days",
+    "image": "assets/images/placeholders/programme-leadership.svg"
+  },
+  {
+    "id": "regenerative-agribusiness",
+    "category": "Agribusiness",
+    "title": "Regenerative Agribusiness",
+    "tagline": "Turn climate-smart farming practice into a bankable operation.",
+    "description": "Covers soil health economics, water stewardship, traceable supply chains and access to green finance. Built with agricultural cooperatives and delivered largely in the field alongside working farms.",
+    "whoFor": "Cooperative leaders and agri-processors",
+    "format": "Field-based cohort",
+    "duration": "12 weeks",
+    "image": "assets/images/placeholders/programme-agribusiness.svg"
+  },
+  {
+    "id": "green-finance-impact-reporting",
+    "category": "Finance",
+    "title": "Green Finance & Impact Reporting",
+    "tagline": "Speak the language lenders and impact investors expect.",
+    "description": "A finance-focused programme on structuring green finance applications and building impact reports that satisfy lenders, donors and boards alike.",
+    "whoFor": "Finance leads and impact/ESG officers",
+    "format": "Online cohort",
+    "duration": "8 weeks",
+    "image": "assets/images/placeholders/programme-finance.svg"
+  }
+]
