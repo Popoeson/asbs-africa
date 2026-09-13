@@ -1,0 +1,126 @@
+/* ==========================================================================
+   ASBS Africa — Base Styles
+   Brand variables + resets + typography. Loaded on every page.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand colors — from Step 2 UI/UX Design doc */
+  --color-navy: #1B2A4A;
+  --color-navy-dark: #121d33;
+  --color-sage: #8FB84C;
+  --color-sage-dark: #729a3a;
+  --color-gray: #6E7175;
+  --color-white: #FFFFFF;
+  --color-offwhite: #F5F5F5;
+
+  /* Typography */
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing rhythm (per Step 2 spec: ~80px desktop / ~40px mobile) */
+  --section-padding-desktop: 80px;
+  --section-padding-mobile: 40px;
+
+  /* Shared component values */
+  --radius-card: 8px;
+  --radius-button: 6px;
+  --max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-navy);
+  background: var(--color-white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--color-navy);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.25rem); text-transform: uppercase; }
+h2 { font-size: clamp(1.6rem, 4vw, 2.5rem); text-transform: uppercase; }
+h3 { font-size: 1.25rem; }
+
+p {
+  color: var(--color-gray);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: var(--section-padding-mobile) 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: var(--section-padding-desktop) 0;
+  }
+}
+
+.eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.bg-navy { background: var(--color-navy); color: var(--color-white); }
+.bg-sage { background: var(--color-sage); color: var(--color-white); }
+.bg-offwhite { background: var(--color-offwhite); }
+
+.text-center { text-align: center; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
