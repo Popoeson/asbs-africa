@@ -3,19 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASBS Africa — programmes</title>
+  <title>Programmes — ASBS Africa</title>
+  <meta name="description" content="Executive and enterprise programmes from ASBS Africa — enterprise, leadership, agribusiness and finance tracks built around your own organisation.">
+
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages/programmes.css">
 </head>
 <body>
+
   <div id="site-header"></div>
 
-  <section class="section container">
-    <h1>Coming soon</h1>
-    <p>This page is next in the build queue.</p>
+  <!-- Hero -->
+  <section class="programmes-hero">
+    <div class="container">
+      <span class="eyebrow">Programmes</span>
+      <h1>Courses That End With a Plan, Not a Certificate</h1>
+      <p>Every ASBS programme is built around a participant's own enterprise. Cohorts are capped at thirty so the work stays specific.</p>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="container">
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-tab is-active" data-category="All">All</button>
+        <button class="filter-tab" data-category="Enterprise">Enterprise</button>
+        <button class="filter-tab" data-category="Leadership">Leadership</button>
+        <button class="filter-tab" data-category="Agribusiness">Agribusiness</button>
+        <button class="filter-tab" data-category="Finance">Finance</button>
+      </div>
+      <p class="results-count" id="resultsCount">Showing 4 of 4 programmes</p>
+    </div>
+  </section>
+
+  <!-- Programme list -->
+  <section class="section" style="padding-top:24px;">
+    <div class="container">
+      <div class="programme-list" id="programmeList">
+        <!-- Rendered by assets/js/pages/programmes.js from data/programmes.json -->
+      </div>
+    </div>
   </section>
 
   <div id="site-footer"></div>
+
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/pages/programmes.js"></script>
 </body>
 </html>
