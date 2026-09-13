@@ -1,0 +1,110 @@
+/* ==========================================================================
+   About page — hero, alternating history/mission blocks, leadership grid
+   ========================================================================== */
+
+.about-hero {
+  background: linear-gradient(180deg, rgba(27,42,74,0.6), rgba(27,42,74,0.9)),
+              url('../../images/placeholders/hero-workshop.svg') center/cover no-repeat;
+  color: var(--color-white);
+  padding: 56px 0 60px;
+}
+
+.about-hero h1 {
+  color: var(--color-white);
+  margin: 12px 0 18px;
+}
+
+.about-hero p {
+  color: #E4E7EE;
+  max-width: 65ch;
+  font-size: 1.05rem;
+}
+
+/* ---- Alternating image/text blocks ---- */
+.about-block {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .about-block {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+  .about-block--reverse .about-block__image {
+    order: 2;
+  }
+}
+
+.about-block + .about-block {
+  margin-top: 56px;
+}
+
+.about-block__image-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-card);
+  background: linear-gradient(135deg, var(--color-navy), var(--color-gray));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-block h2 {
+  margin: 8px 0 20px;
+}
+
+.about-block p {
+  margin-bottom: 16px;
+}
+
+/* ---- Leadership ---- */
+.leadership-intro {
+  max-width: 65ch;
+  margin-bottom: 40px;
+}
+
+.leadership-intro p {
+  margin-top: 12px;
+  font-size: 1.05rem;
+}
+
+.team-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.team-card__photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-card);
+  background: linear-gradient(135deg, var(--color-sage), var(--color-navy));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.team-card__name {
+  margin-bottom: 4px;
+}
+
+.team-card__title {
+  display: block;
+  color: var(--color-sage-dark);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
