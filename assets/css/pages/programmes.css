@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Programmes page — hero, filter tabs, full programme list
+   ========================================================================== */
+
+.programmes-hero {
+  background: linear-gradient(180deg, rgba(27,42,74,0.75), rgba(27,42,74,0.92)),
+              url('../../images/placeholders/hero-workshop.svg') center/cover no-repeat;
+  color: var(--color-white);
+  padding: 56px 0 48px;
+}
+
+.programmes-hero h1 {
+  color: var(--color-white);
+  margin: 12px 0 18px;
+}
+
+.programmes-hero p {
+  color: #E4E7EE;
+  max-width: 60ch;
+  font-size: 1.05rem;
+}
+
+/* ---- Filter tabs ---- */
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-tab {
+  padding: 12px 20px;
+  border-radius: var(--radius-button);
+  border: 1px solid #D8D8D8;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-navy);
+  background: var(--color-white);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.filter-tab.is-active {
+  background: var(--color-navy);
+  border-color: var(--color-navy);
+  color: var(--color-white);
+}
+
+.filter-tab:not(.is-active):hover {
+  border-color: var(--color-navy);
+}
+
+.results-count {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+}
+
+/* ---- Programme list (stacked full-width cards) ---- */
+.programme-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.programme-card {
+  border-radius: var(--radius-card);
+  box-shadow: 0 2px 12px rgba(27, 42, 74, 0.08);
+  overflow: hidden;
+  scroll-margin-top: 100px; /* accounts for sticky header when jumping via #id */
+}
+
+.programme-card__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--color-offwhite);
+}
+
+.programme-card__body {
+  padding: 28px 24px;
+}
+
+.programme-card__tag {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-sage-dark);
+  margin-bottom: 10px;
+}
+
+.programme-card__title {
+  margin-bottom: 12px;
+}
+
+.programme-card__tagline {
+  color: var(--color-navy);
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+
+.programme-card__description {
+  margin-bottom: 24px;
+}
+
+.detail-boxes {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 600px) {
+  .detail-boxes { grid-template-columns: repeat(3, 1fr); }
+}
+
+.detail-box {
+  background: var(--color-offwhite);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.detail-box svg {
+  color: var(--color-sage-dark);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.detail-box__label {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gray);
+  margin-bottom: 4px;
+}
+
+.detail-box__value {
+  color: var(--color-navy);
+  font-weight: 500;
+}
+
+.enquire-btn {
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+  .enquire-btn { width: auto; }
+}
