@@ -168,6 +168,34 @@
   background: var(--color-navy-dark);
 }
 
+/* ---- Impact stats ---- */
+.stats-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 700px) {
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.stat {
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  padding-top: 20px;
+}
+
+.stat__number {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 6vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 /* ---- Cards ---- */
 .card {
   background: var(--color-white);
