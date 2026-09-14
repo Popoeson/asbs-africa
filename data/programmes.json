@@ -8,7 +8,7 @@
     "whoFor": "Founders and owner-managers of SMEs",
     "format": "Hybrid — Nairobi campus + online",
     "duration": "10 weeks",
-    "image": "assets/images/placeholders/programme-enterprise.svg"
+    "image": "assets/images/real/programmes/sustainable-enterprise-foundations.jpg"
   },
   {
     "id": "responsible-leadership-intensive",
@@ -19,7 +19,7 @@
     "whoFor": "Senior executives and board members",
     "format": "In person — residential",
     "duration": "5 days",
-    "image": "assets/images/real/programmes/sustainable-enterprise-foundations.jpg"
+    "image": "assets/images/real/programmes/responsible-leadership-intensive.jpg"
   },
   {
     "id": "regenerative-agribusiness",
@@ -30,7 +30,7 @@
     "whoFor": "Cooperative leaders and agri-processors",
     "format": "Field-based cohort",
     "duration": "12 weeks",
-    "image": "assets/images/placeholders/programme-agribusiness.svg"
+    "image": "assets/images/real/programmes/regenerative-agribusiness.jpg"
   },
   {
     "id": "green-finance-impact-reporting",
@@ -41,6 +41,6 @@
     "whoFor": "Finance leads and impact/ESG officers",
     "format": "Online cohort",
     "duration": "8 weeks",
-    "image": "assets/images/placeholders/programme-finance.svg"
+ "image": "assets/images/real/programmes/green-finance-impact-reporting.jpg""
   }
 ]
