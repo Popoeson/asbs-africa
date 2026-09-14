@@ -27,7 +27,16 @@ function initNavToggle() {
 
   toggle.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('is-open');
+    toggle.classList.toggle('is-open', isOpen);
     toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+}
+
+function setActiveNavLink() {
+  const current = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.main-nav__links a').forEach(link => {
+    if (link.dataset.page === current) link.classList.add('is-active');
   });
 }
 
