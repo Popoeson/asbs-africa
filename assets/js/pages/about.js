@@ -7,7 +7,7 @@
 function renderTeamCard(member) {
   return `
     <article class="team-card">
-      <div class="team-card__photo-placeholder">Photo pending</div>
+      <img class="team-card__photo" src="${member.image}" alt="${member.name}">
       <h3 class="team-card__name">${member.name}</h3>
       <span class="team-card__title">${member.title}</span>
       <p>${member.bio}</p>
