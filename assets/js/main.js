@@ -29,7 +29,6 @@ function initNavToggle() {
     const isOpen = nav.classList.toggle('is-open');
     toggle.classList.toggle('is-open', isOpen);
     toggle.setAttribute('aria-expanded', String(isOpen));
-    document.body.style.overflow = isOpen ? 'hidden' : '';
   });
 }
 
