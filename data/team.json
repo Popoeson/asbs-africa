@@ -6,9 +6,21 @@
     "bio": "Former development banker who spent two decades financing African SMEs. He founded ASBS to close the gap between sustainability policy and the daily decisions business owners actually make."
   },
   {
-    "id": "team-member-2",
-    "name": "Name pending",
-    "title": "Title pending",
-    "bio": "Bio pending — screenshot was cut off before this could be captured."
+    "id": "amara-okonkwo",
+    "name": "Amara Okonkwo",
+    "title": "Director of Programmes",
+    "bio": "Spent twelve years advising manufacturing cooperatives on resource efficiency before joining ASBS. She designs the curriculum around what participants can implement within a single financial quarter."
+  },
+  {
+    "id": "daniel-obeng",
+    "name": "Daniel Obeng",
+    "title": "Head of Agribusiness Faculty",
+    "bio": "An agricultural economist who worked with smallholder cooperatives across East and West Africa. He leads the field-based delivery of the Regenerative Agribusiness programme."
+  },
+  {
+    "id": "grace-mwaura",
+    "name": "Grace Mwaura",
+    "title": "Head of Finance Faculty",
+    "bio": "Former impact investment analyst who now teaches finance leads how to structure green finance applications that lenders actually approve."
   }
 ]
