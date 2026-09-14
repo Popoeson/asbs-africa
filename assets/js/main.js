@@ -61,6 +61,7 @@ async function initLayout() {
   ]);
   initNavToggle();
   initNewsletterForm();
+  setActiveNavLink();
 }
 
 document.addEventListener('DOMContentLoaded', initLayout);
