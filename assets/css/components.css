@@ -31,6 +31,7 @@
   height: 44px;
   width: auto;
   flex-shrink: 0;
+  boreder-radius: 5px;
 }
 
 .brand__wordmark {
