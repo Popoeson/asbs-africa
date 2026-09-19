@@ -52,6 +52,13 @@
   border-color: var(--color-navy);
 }
 
+.delivery-note {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  max-width: 60ch;
+}
+
 .results-count {
   color: var(--color-gray);
   font-size: 0.9rem;
