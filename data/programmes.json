@@ -6,6 +6,7 @@
     "tagline": "A practical framework for building and owning enterprise-wide sustainability strategy.",
     "whoFor": "Senior managers, COO/CSO",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": true
   },
@@ -16,6 +17,7 @@
     "tagline": "A board-level grounding in ESG oversight, fiduciary duty and the questions directors should be asking management.",
     "whoFor": "Boards, Directors",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -26,6 +28,7 @@
     "tagline": "An intensive on structuring and evaluating green finance instruments and investment decisions.",
     "whoFor": "Bankers, investors, treasury teams",
     "duration": "5 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -36,6 +39,7 @@
     "tagline": "Building resilience against climate-related disruption across the business.",
     "whoFor": "COOs, operations leaders",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -46,6 +50,7 @@
     "tagline": "A working framework for identifying and managing climate-related financial risk.",
     "whoFor": "CFOs, risk officers",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -56,6 +61,7 @@
     "tagline": "Builds the reporting and disclosure skills leaders need to meet investor and regulatory ESG expectations.",
     "whoFor": "CFOs, IR & sustainability officers",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -66,6 +72,7 @@
     "tagline": "Embedding sustainability standards and resilience across procurement and supply chains.",
     "whoFor": "Procurement & supply chain executives",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -76,6 +83,7 @@
     "tagline": "Setting and delivering a credible net zero strategy, including carbon measurement.",
     "whoFor": "Sustainability & strategy leads",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -86,6 +94,7 @@
     "tagline": "Circular business models that reduce waste and create revenue from resource efficiency.",
     "whoFor": "Manufacturing & product executives",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -96,6 +105,7 @@
     "tagline": "How to structure blended finance deals combining commercial and impact-driven capital.",
     "whoFor": "Investors, fund managers, DFIs",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -106,6 +116,7 @@
     "tagline": "A practical grounding in financing renewable energy projects from structuring through to close.",
     "whoFor": "Bankers, project developers",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -116,6 +127,7 @@
     "tagline": "Building climate-smart, bankable agribusiness operations.",
     "whoFor": "Agribusiness executives",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -126,6 +138,7 @@
     "tagline": "Water-related business risk and practical stewardship for operations and risk leaders.",
     "whoFor": "Operations & risk leaders",
     "duration": "2 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -136,6 +149,7 @@
     "tagline": "Biodiversity and natural capital as a growing part of corporate sustainability strategy.",
     "whoFor": "Sustainability & strategy leads",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -146,6 +160,7 @@
     "tagline": "How to run ESG due diligence as part of M&A and investment decisions.",
     "whoFor": "Investment & deal teams",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -156,6 +171,7 @@
     "tagline": "Equips leaders to manage stakeholder relationships and protect a company's social license to operate.",
     "whoFor": "Public affairs, community relations",
     "duration": "2 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -166,6 +182,7 @@
     "tagline": "Sustainable design, financing and operating practice for real estate and infrastructure.",
     "whoFor": "Developers, infrastructure executives",
     "duration": "4 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -176,6 +193,7 @@
     "tagline": "Building adaptation plans that prepare the business for physical climate impacts.",
     "whoFor": "Senior leadership, planners",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -186,6 +204,7 @@
     "tagline": "Communicating sustainability credibly without greenwashing.",
     "whoFor": "Marketing & brand executives",
     "duration": "2 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -196,6 +215,7 @@
     "tagline": "Governance structures and board practice needed to embed sustainability into corporate decision-making.",
     "whoFor": "Directors, company secretaries",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -206,6 +226,7 @@
     "tagline": "Links financial reporting practice with sustainability performance for senior finance leaders.",
     "whoFor": "CFO, COO, Senior manager",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": false
   },
@@ -216,6 +237,7 @@
     "tagline": "Integrating sustainability considerations into investment and finance decision-making.",
     "whoFor": "Investment manager, COO, CFOs",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": true
   },
@@ -226,6 +248,7 @@
     "tagline": "Building a green growth strategy that holds up commercially.",
     "whoFor": "Business leaders, COO, CFO",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": true
   },
@@ -236,6 +259,7 @@
     "tagline": "A senior masterclass tying ESG strategy, governance and performance into one coherent leadership view.",
     "whoFor": "COOs, CFOs, Investors etc.",
     "duration": "3 days",
+    "format": "On-site",
     "image": "assets/images/placeholders/programme-generic.svg",
     "featured": true
   }
