@@ -9,8 +9,8 @@ async function renderProgrammeHighlights() {
   if (!grid) return;
 
   try {
-    const res = await fetch('data/programmes.json');
-    const programmes = await res.json();
+     const res = await fetch('data/programmes.json');
+     const programmes = (await res.json()).filter(p => p.featured);
 
     grid.innerHTML = programmes.map(p => `
       <article class="card">
