@@ -1,46 +1,242 @@
 [
   {
-    "id": "sustainable-enterprise-foundations",
-    "category": "Enterprise",
-    "title": "Sustainable Enterprise Foundations",
-    "tagline": "Build a business model that holds up environmentally and financially.",
-    "description": "A practical grounding in circular business models, resource efficiency and impact measurement. Participants leave with a costed sustainability roadmap for their own enterprise and a reporting framework they can take to lenders and partners.",
-    "whoFor": "Founders and owner-managers of SMEs",
-    "format": "Hybrid — Nairobi campus + online",
-    "duration": "10 weeks",
-    "image": "assets/images/real/programmes/sustainable-enterprise-foundations.jpg"
+    "id": "sustainability-strategy-c-suite",
+    "category": "Strategy & Operations",
+    "title": "Sustainability Strategy for the C-Suite",
+    "tagline": "A practical framework for building and owning enterprise-wide sustainability strategy.",
+    "whoFor": "Senior managers, COO/CSO",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": true
   },
   {
-    "id": "responsible-leadership-intensive",
-    "category": "Leadership",
-    "title": "Responsible Leadership Intensive",
-    "tagline": "Lead teams and boards through the transition to sustainable operations.",
-    "description": "An executive intensive on governance, stakeholder negotiation and change leadership. Delivered through live case clinics drawn from African firms, with a peer cohort of senior leaders and a personal leadership review at the close.",
-    "whoFor": "Senior executives and board members",
-    "format": "In person — residential",
+    "id": "esg-boards-directors",
+    "category": "Leadership & Governance",
+    "title": "ESG for Boards & Directors",
+    "tagline": "A board-level grounding in ESG oversight, fiduciary duty and the questions directors should be asking management.",
+    "whoFor": "Boards, Directors",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "green-finance-investment-bootcamp",
+    "category": "Finance & Investment",
+    "title": "Green Finance & Investment Bootcamp",
+    "tagline": "An intensive on structuring and evaluating green finance instruments and investment decisions.",
+    "whoFor": "Bankers, investors, treasury teams",
     "duration": "5 days",
-    "image": "assets/images/real/programmes/responsible-leadership-intensive.jpg"
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
   },
   {
-    "id": "regenerative-agribusiness",
-    "category": "Agribusiness",
-    "title": "Regenerative Agribusiness",
-    "tagline": "Turn climate-smart farming practice into a bankable operation.",
-    "description": "Covers soil health economics, water stewardship, traceable supply chains and access to green finance. Built with agricultural cooperatives and delivered largely in the field alongside working farms.",
-    "whoFor": "Cooperative leaders and agri-processors",
-    "format": "Field-based cohort",
-    "duration": "12 weeks",
-    "image": "assets/images/real/programmes/regenerative-agribusiness.jpg"
+    "id": "leading-climate-resilient-operations",
+    "category": "Climate & Risk",
+    "title": "Leading Climate-Resilient Operations",
+    "tagline": "Building resilience against climate-related disruption across the business.",
+    "whoFor": "COOs, operations leaders",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
   },
   {
-    "id": "green-finance-impact-reporting",
-    "category": "Finance",
-    "title": "Green Finance & Impact Reporting",
-    "tagline": "Speak the language lenders and impact investors expect.",
-    "description": "A finance-focused programme on structuring green finance applications and building impact reports that satisfy lenders, donors and boards alike.",
-    "whoFor": "Finance leads and impact/ESG officers",
-    "format": "Online cohort",
-    "duration": "8 weeks",
- "image": "assets/images/real/programmes/green-finance-impact-reporting.jpg"
+    "id": "climate-risk-management-executives",
+    "category": "Climate & Risk",
+    "title": "Climate Risk Management for Executives",
+    "tagline": "A working framework for identifying and managing climate-related financial risk.",
+    "whoFor": "CFOs, risk officers",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "esg-reporting-disclosure-leaders",
+    "category": "Leadership & Governance",
+    "title": "ESG Reporting & Disclosure for Leaders",
+    "tagline": "Builds the reporting and disclosure skills leaders need to meet investor and regulatory ESG expectations.",
+    "whoFor": "CFOs, IR & sustainability officers",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "sustainable-supply-chain-leadership",
+    "category": "Strategy & Operations",
+    "title": "Sustainable Supply Chain Leadership",
+    "tagline": "Embedding sustainability standards and resilience across procurement and supply chains.",
+    "whoFor": "Procurement & supply chain executives",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "net-zero-strategy-carbon-management",
+    "category": "Climate & Risk",
+    "title": "Net Zero Strategy & Carbon Management",
+    "tagline": "Setting and delivering a credible net zero strategy, including carbon measurement.",
+    "whoFor": "Sustainability & strategy leads",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "circular-economy-business-models",
+    "category": "Strategy & Operations",
+    "title": "Circular Economy Business Models",
+    "tagline": "Circular business models that reduce waste and create revenue from resource efficiency.",
+    "whoFor": "Manufacturing & product executives",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "impact-investing-blended-finance",
+    "category": "Finance & Investment",
+    "title": "Impact Investing & Blended Finance",
+    "tagline": "How to structure blended finance deals combining commercial and impact-driven capital.",
+    "whoFor": "Investors, fund managers, DFIs",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "renewable-energy-project-finance",
+    "category": "Finance & Investment",
+    "title": "Renewable Energy Project Finance",
+    "tagline": "A practical grounding in financing renewable energy projects from structuring through to close.",
+    "whoFor": "Bankers, project developers",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "sustainable-agribusiness-leadership",
+    "category": "Strategy & Operations",
+    "title": "Sustainable Agribusiness Leadership",
+    "tagline": "Building climate-smart, bankable agribusiness operations.",
+    "whoFor": "Agribusiness executives",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "water-stewardship-business-risk",
+    "category": "Climate & Risk",
+    "title": "Water Stewardship & Business Risk",
+    "tagline": "Water-related business risk and practical stewardship for operations and risk leaders.",
+    "whoFor": "Operations & risk leaders",
+    "duration": "2 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "biodiversity-natural-capital-business",
+    "category": "Climate & Risk",
+    "title": "Biodiversity & Natural Capital for Business",
+    "tagline": "Biodiversity and natural capital as a growing part of corporate sustainability strategy.",
+    "whoFor": "Sustainability & strategy leads",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "esg-due-diligence-ma-investment",
+    "category": "Finance & Investment",
+    "title": "ESG Due Diligence for M&A and Investment",
+    "tagline": "How to run ESG due diligence as part of M&A and investment decisions.",
+    "whoFor": "Investment & deal teams",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "stakeholder-engagement-social-license",
+    "category": "Leadership & Governance",
+    "title": "Stakeholder Engagement & Social License",
+    "tagline": "Equips leaders to manage stakeholder relationships and protect a company's social license to operate.",
+    "whoFor": "Public affairs, community relations",
+    "duration": "2 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "sustainable-real-estate-infrastructure",
+    "category": "Strategy & Operations",
+    "title": "Sustainable Real Estate & Infrastructure",
+    "tagline": "Sustainable design, financing and operating practice for real estate and infrastructure.",
+    "whoFor": "Developers, infrastructure executives",
+    "duration": "4 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "climate-adaptation-planning-executives",
+    "category": "Climate & Risk",
+    "title": "Climate Adaptation Planning for Executives",
+    "tagline": "Building adaptation plans that prepare the business for physical climate impacts.",
+    "whoFor": "Senior leadership, planners",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "green-marketing-sustainable-brand-strategy",
+    "category": "Strategy & Operations",
+    "title": "Green Marketing & Sustainable Brand Strategy",
+    "tagline": "Communicating sustainability credibly without greenwashing.",
+    "whoFor": "Marketing & brand executives",
+    "duration": "2 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "corporate-governance-sustainable-enterprise",
+    "category": "Leadership & Governance",
+    "title": "Corporate Governance for Sustainable Enterprise",
+    "tagline": "Governance structures and board practice needed to embed sustainability into corporate decision-making.",
+    "whoFor": "Directors, company secretaries",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "financial-reporting-sustainability",
+    "category": "Finance & Investment",
+    "title": "Financial Reporting and Sustainability",
+    "tagline": "Links financial reporting practice with sustainability performance for senior finance leaders.",
+    "whoFor": "CFO, COO, Senior manager",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": false
+  },
+  {
+    "id": "sustainable-investment-finance-masterclass",
+    "category": "Finance & Investment",
+    "title": "Sustainable Investment and Finance Masterclass",
+    "tagline": "Integrating sustainability considerations into investment and finance decision-making.",
+    "whoFor": "Investment manager, COO, CFOs",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": true
+  },
+  {
+    "id": "green-business-strategy-senior-leader",
+    "category": "Strategy & Operations",
+    "title": "Green Business Strategy for Senior Leader",
+    "tagline": "Building a green growth strategy that holds up commercially.",
+    "whoFor": "Business leaders, COO, CFO",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": true
+  },
+  {
+    "id": "strategic-esg-sustainability-masterclass",
+    "category": "Leadership & Governance",
+    "title": "Strategic ESG Sustainability Masterclass",
+    "tagline": "A senior masterclass tying ESG strategy, governance and performance into one coherent leadership view.",
+    "whoFor": "COOs, CFOs, Investors etc.",
+    "duration": "3 days",
+    "image": "assets/images/placeholders/programme-generic.svg",
+    "featured": true
   }
 ]
