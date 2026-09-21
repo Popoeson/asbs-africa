@@ -117,7 +117,7 @@
     "whoFor": "Bankers, project developers",
     "duration": "4 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/renewable-energy-project-finance.jpg",
     "featured": false
   },
   {
@@ -128,7 +128,7 @@
     "whoFor": "Agribusiness executives",
     "duration": "4 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/sustainable-agribusiness-leadership.jpg",
     "featured": false
   },
   {
@@ -139,7 +139,7 @@
     "whoFor": "Operations & risk leaders",
     "duration": "2 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/water-stewardship-business-risk.jpg",
     "featured": false
   },
   {
@@ -150,7 +150,7 @@
     "whoFor": "Sustainability & strategy leads",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/biodiversity-natural-capital-business.jpg",
     "featured": false
   },
   {
@@ -161,7 +161,7 @@
     "whoFor": "Investment & deal teams",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/esg-due-diligence-ma-investment.jpg",
     "featured": false
   },
   {
@@ -172,7 +172,7 @@
     "whoFor": "Public affairs, community relations",
     "duration": "2 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/stakeholder-engagement-social-license.jpg",
     "featured": false
   },
   {
@@ -183,7 +183,7 @@
     "whoFor": "Developers, infrastructure executives",
     "duration": "4 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/sustainable-real-estate-infrastructure.jpg",
     "featured": false
   },
   {
@@ -194,7 +194,7 @@
     "whoFor": "Senior leadership, planners",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/climate-adaptation-planning-executives.jpg",
     "featured": false
   },
   {
@@ -205,7 +205,7 @@
     "whoFor": "Marketing & brand executives",
     "duration": "2 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/green-marketing-sustainable-brand-strategy.jpg",
     "featured": false
   },
   {
@@ -216,7 +216,7 @@
     "whoFor": "Directors, company secretaries",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/images/corporate-governance-sustainable-enterprise.jpg",
     "featured": false
   },
   {
@@ -227,7 +227,7 @@
     "whoFor": "CFO, COO, Senior manager",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/financial-reporting-sustainability.jpg",
     "featured": false
   },
   {
@@ -238,7 +238,7 @@
     "whoFor": "Investment manager, COO, CFOs",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/sustainable-investment-finance-masterclass.jpg",
     "featured": true
   },
   {
@@ -249,7 +249,7 @@
     "whoFor": "Business leaders, COO, CFO",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/green-business-strategy-senior-leader.jpg",
     "featured": true
   },
   {
@@ -260,7 +260,7 @@
     "whoFor": "COOs, CFOs, Investors etc.",
     "duration": "3 days",
     "format": "On-site",
-    "image": "assets/images/placeholders/programme-generic.svg",
+    "image": "assets/images/real/programmes/strategic-esg-sustainability-masterclass.jpg",
     "featured": true
   }
 ]
