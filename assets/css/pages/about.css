@@ -98,3 +98,85 @@
   font-weight: 600;
   margin-bottom: 12px;
 }
+
+/* ---- Mission commitments list ---- */
+.mission-commitments {
+  margin-top: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.mission-commitments li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+.mission-commitments li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-sage);
+}
+
+.mission-commitments strong {
+  color: var(--color-navy);
+}
+
+/* ---- Vision ---- */
+.vision__inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision__inner h2 {
+  margin: 8px 0 20px;
+}
+
+.vision__inner p {
+  font-size: 1.05rem;
+}
+
+/* ---- Core Values ---- */
+.values-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .values-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1000px) {
+  .values-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.value-card {
+  background: var(--color-offwhite);
+  border-radius: var(--radius-card);
+  padding: 28px;
+}
+
+.value-card__number {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-sage);
+  margin-bottom: 12px;
+}
+
+.value-card h3 {
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  color: var(--color-gray);
+  margin: 0;
+}
