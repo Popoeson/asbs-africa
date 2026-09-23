@@ -14,7 +14,7 @@ async function renderProgrammeHighlights() {
 
     grid.innerHTML = programmes.map(p => `
       <article class="card">
-        <img class="card__image" src="${p.image}" alt="${p.title}">
+       <img class="card__image" src="${p.image}" alt="${p.title}" loading="lazy" decoding="async">
         <div class="card__body">
           <span class="card__tag">${p.category}</span>
           <h3 class="card__title">${p.title}</h3>
