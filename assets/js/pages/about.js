@@ -7,7 +7,7 @@
 function renderTeamCard(member) {
   return `
     <article class="team-card">
-      <img class="team-card__photo" src="${member.image}" alt="${member.name}">
+     <img class="team-card__photo" src="${member.image}" alt="${member.name}" loading="lazy" decoding="async">
       <h3 class="team-card__name">${member.name}</h3>
       <span class="team-card__title">${member.title}</span>
       <p>${member.bio}</p>
