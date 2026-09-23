@@ -310,12 +310,4 @@
   height: 48px;
   width: auto;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.75;
-  transition: filter 0.2s ease, opacity 0.2s ease;
-}
-
-.partners-strip__logo img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
 }
