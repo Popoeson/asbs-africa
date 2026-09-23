@@ -307,7 +307,8 @@
 }
 
 .partners-strip__logo img {
-  height: 48px;
+  height: 55px;
+  border-radius: 5px;
   width: auto;
   object-fit: contain;
 }
