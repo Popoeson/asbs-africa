@@ -1,7 +1,8 @@
 /**
  * Programmes page — renders full programme list from data/programmes.json,
  * split into two tabs (Executive Courses / Professional Certificate Courses)
- * with a live search over title, description, and targets.
+ * with a live search over title, description, and targets, and a
+ * six-line clamp + expand/collapse toggle on each card's description.
  */
 
 let allProgrammes = [];
@@ -22,7 +23,12 @@ function renderCard(p) {
       <img class="programme-card__image" src="${p.image}" alt="${p.title}" loading="lazy" decoding="async">
       <div class="programme-card__body">
         <h2 class="programme-card__title">${p.title}</h2>
-        <p class="programme-card__description">${p.description}</p>
+
+        <p class="programme-card__description is-clamped">${p.description}</p>
+        <button type="button" class="programme-card__toggle" aria-expanded="false">
+          Read more
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
 
         <div class="programme-card__targets-wrap">
           <span class="programme-card__targets-label">Who it's for</span>
@@ -78,6 +84,26 @@ function initSearch() {
   });
 }
 
+function initDescriptionToggles() {
+  // Event delegation — the card list is re-rendered on every tab switch
+  // and search keystroke, so a single listener on the container survives
+  // those re-renders instead of needing to be re-bound each time.
+  const list = document.getElementById('programmeList');
+  list.addEventListener('click', (e) => {
+    const btn = e.target.closest('.programme-card__toggle');
+    if (!btn) return;
+
+    const desc = btn.previousElementSibling; // the <p class="programme-card__description">
+    const expanded = desc.classList.toggle('is-expanded');
+    desc.classList.toggle('is-clamped', !expanded);
+
+    btn.setAttribute('aria-expanded', String(expanded));
+    btn.innerHTML = expanded
+      ? `Show less <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>`
+      : `Read more <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`;
+  });
+}
+
 function scrollToHash() {
   if (!location.hash) return;
   const target = document.querySelector(location.hash);
@@ -91,6 +117,7 @@ async function initProgrammesPage() {
     renderList();
     initTabs();
     initSearch();
+    initDescriptionToggles();
     scrollToHash();
   } catch (err) {
     console.error('Could not load programmes:', err);
