@@ -126,8 +126,41 @@
 }
 
 .programme-card__description {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
+
+.programme-card__description.is-clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.programme-card__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--color-sage-dark);
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.programme-card__toggle svg {
+  transition: transform 0.2s ease;
+}
+
+.programme-card__toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.programme-card__toggle:hover {
+  color: var(--color-navy);
+}
+  
 
 /* ---- Targets list (replaces old detail-boxes) ---- */
 .programme-card__targets-wrap {
