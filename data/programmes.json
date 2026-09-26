@@ -1,266 +1,384 @@
 [
   {
-    "id": "sustainability-strategy-c-suite",
-    "category": "Strategy & Operations",
-    "title": "Sustainability Strategy for the C-Suite",
-    "tagline": "A practical framework for building and owning enterprise-wide sustainability strategy.",
-    "whoFor": "Senior managers, COO/CSO",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/sustainability-strategy-c-suite.jpg",
-    "featured": true
-  },
-  {
     "id": "esg-boards-directors",
-    "category": "Leadership & Governance",
-    "title": "ESG for Boards & Directors",
-    "tagline": "A board-level grounding in ESG oversight, fiduciary duty and the questions directors should be asking management.",
-    "whoFor": "Boards, Directors",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/esg-boards-directors.jpg",
-    "featured": false
+    "tab": "executive",
+    "title": "ESG for Board and Directors",
+    "description": "This comprehensive 2-day executive programme is tailored specifically for non-executive directors, board chairs, and committee members. The curriculum addresses critical boardroom challenges, including interpreting double-materiality assessments, evaluating climate and transition risks, managing disclosure frameworks (such as ISSB, CSRD, and SEC mandates), and restructuring board committee oversight. Through interactive board simulations and expert-led discussions, participants will learn how to maintain rigorous oversight while steering executive strategy toward sustainable capital allocation and long-term shareholder and stakeholder value creation.",
+    "targets": [
+      "Board Chairs & Independent Directors: Responsible for steering board agendas, governance culture, and board evaluation.",
+      "Non-Executive Directors (NEDs): Seeking to enhance their ESG competency and discharge fiduciary duties effectively.",
+      "Chairs of Audit, Risk, and Governance Committees: Tasked with financial/non-financial disclosure oversight and risk management.",
+      "Corporate Secretaries & Governance Advisors: Supporting board members in regulatory compliance and board reporting."
+    ],
+    "image": "assets/images/real/programmes/esg-boards-directors.jpg"
   },
   {
     "id": "green-finance-investment-bootcamp",
-    "category": "Finance & Investment",
-    "title": "Green Finance & Investment Bootcamp",
-    "tagline": "An intensive on structuring and evaluating green finance instruments and investment decisions.",
-    "whoFor": "Bankers, investors, treasury teams",
-    "duration": "5 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/green-finance-investment-bootcamp.jpg",
-    "featured": false
+    "tab": "executive",
+    "title": "Green Finance and Investment Bootcamp",
+    "description": "This hands-on, rigorous bootcamp delivers practical expertise across green debt capital markets, sustainable equity valuation, carbon offset trading, and treasury liquidity management. Over five structured days, participants will transition from foundational green taxonomies (such as EU Taxonomy, Climate Bonds Standard, and ICMA Principles) to executing complex deal-structuring, stress-testing loan portfolios against physical and transition risks, and leveraging blended finance instruments. The course bridges theoretical financial mechanics with real-world execution, featuring financial modeling exercises, green bond structuring labs, and portfolio risk scenario analysis.",
+    "targets": [
+      "Commercial & Investment Bankers: Relationship managers, credit risk underwriters, structured finance specialists, and debt capital markets (DCM) teams.",
+      "Institutional Investors & Asset Managers: Portfolio managers, ESG analysts, private equity partners, and venture capital investors.",
+      "Corporate Treasury & Finance Teams: Group treasurers, CFOs, financial controllers, and capital allocation strategists.",
+      "Development Finance & Central Bank Officers: Risk supervisors, policy leads, and multilateral investment officers."
+    ],
+    "image": "assets/images/real/programmes/green-finance-investment-bootcamp.jpg"
   },
   {
     "id": "leading-climate-resilient-operations",
-    "category": "Climate & Risk",
+    "tab": "executive",
     "title": "Leading Climate-Resilient Operations",
-    "tagline": "Building resilience against climate-related disruption across the business.",
-    "whoFor": "COOs, operations leaders",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/leading-climate-resilient-operations.jpg",
-    "featured": false
+    "description": "This 4-day intensive programme addresses the dual imperatives facing operational leaders today: adapting physical assets and supply chains to climate hazards while aggressively reducing operational carbon footprints. Participants will explore physical risk modeling, dynamic supply network mapping, resource circularity, energy transition strategies, and climate-aware business continuity planning. Blending real-world case studies, operational simulations, and peer-to-peer benchmarking, the course prepares operational leaders to embed climate resilience into the DNA of their organization's operating model.",
+    "targets": [
+      "Chief Operating Officers (COOs): C-suite leaders responsible for enterprise-wide execution, asset performance, and organizational resilience.",
+      "VP / Senior Directors of Supply Chain & Procurement: Executives managing global sourcing networks, vendor risks, and logistics infrastructure.",
+      "Heads of Manufacturing, Plant Managers & Site Directors: Leaders over physical facilities, production lines, and industrial asset operations.",
+      "Directors of Business Continuity, EHS & Operations Risk: Senior managers leading operational risk assessments, environmental compliance, and disaster recovery planning."
+    ],
+    "image": "assets/images/real/programmes/leading-climate-resilient-operations.jpg"
   },
   {
     "id": "climate-risk-management-executives",
-    "category": "Climate & Risk",
+    "tab": "executive",
     "title": "Climate Risk Management for Executives",
-    "tagline": "A working framework for identifying and managing climate-related financial risk.",
-    "whoFor": "CFOs, risk officers",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/climate-risk-management-executives.jpg",
-    "featured": false
+    "description": "This 3-day executive course equips financial and risk leaders with actionable frameworks to identify, quantify, stress-test, and mitigate physical and transition climate risks. Participants will explore climate-adjusted Enterprise Risk Management (ERM), NGFS scenario analysis, carbon price impact on corporate cash flows, credit risk modeling, and asset impairment testing. Blending real-world case studies, scenario modeling software demonstrations, and board-level governance frameworks, the course provides the tools necessary to embed climate risk into corporate strategy, debt financing, and investor communications.",
+    "targets": [
+      "Chief Financial Officers (CFOs): Senior executives overseeing financial strategy, capital allocation, reporting, and investor relations.",
+      "Chief Risk Officers (CROs) & Heads of ERM: Risk executives leading credit, market, operational, and strategic risk functions.",
+      "Treasurers & Controllers: Finance leaders managing capital structure, debt covenants, credit ratings, and balance sheet risks.",
+      "Audit Committee Chairs & Board Members: Governance leaders responsible for risk oversight and financial compliance."
+    ],
+    "image": "assets/images/real/programmes/climate-risk-management-executives.jpg"
   },
   {
     "id": "esg-reporting-disclosure-leaders",
-    "category": "Leadership & Governance",
+    "tab": "executive",
     "title": "ESG Reporting & Disclosure for Leaders",
-    "tagline": "Builds the reporting and disclosure skills leaders need to meet investor and regulatory ESG expectations.",
-    "whoFor": "CFOs, IR & sustainability officers",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/esg-reporting-disclosure-leaders.jpg",
-    "featured": false
+    "description": "This 3-day executive course equips senior financial, IR, and sustainability leaders with the practical capabilities needed to navigate complex ESG disclosure landscapes. Participants will gain deep operational mastery over ISSB (IFRS S1 & S2), CSRD (ESRS), SEC Climate Rules, and GRI standards. The curriculum emphasizes double materiality assessments, Scope 1–3 emissions accounting, integrated reporting, ESG data controls, third-party assurance readiness, and strategic messaging for institutional investors and rating agencies.",
+    "targets": [
+      "Chief Financial Officers (CFOs) & Finance Directors: Executives responsible for integrated financial/non-financial reporting, financial statement impact, and audit committee oversight.",
+      "Investor Relations (IR) Officers: Leaders managing institutional investor engagement, quarterly earnings alignment, and ESG rating agency performance.",
+      "Chief Sustainability Officers (CSOs) & Sustainability Directors: Leaders executing sustainability strategies, carbon accounting, and technical reporting frameworks.",
+      "Corporate Governance, Legal & Compliance Heads: Executives ensuring corporate compliance, regulatory alignment, and risk mitigation against greenwashing liabilities."
+    ],
+    "image": "assets/images/real/programmes/esg-reporting-disclosure-leaders.jpg"
   },
   {
     "id": "sustainable-supply-chain-leadership",
-    "category": "Strategy & Operations",
+    "tab": "executive",
     "title": "Sustainable Supply Chain Leadership",
-    "tagline": "Embedding sustainability standards and resilience across procurement and supply chains.",
-    "whoFor": "Procurement & supply chain executives",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/sustainable-supply-chain-leadership.jpg",
-    "featured": false
-  },
-  {
-    "id": "net-zero-strategy-carbon-management",
-    "category": "Climate & Risk",
-    "title": "Net Zero Strategy & Carbon Management",
-    "tagline": "Setting and delivering a credible net zero strategy, including carbon measurement.",
-    "whoFor": "Sustainability & strategy leads",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/net-zero-strategy-carbon-management.jpg",
-    "featured": false
+    "description": "This executive programme addresses the complex intersection of global logistics, decarbonization, ESG accountability, and supplier governance. Participants will explore real-world case studies, evaluate cutting-edge digital tracking tools (Scope 1, 2, & 3 reporting), and learn to balance cost optimization with rigorous corporate sustainability commitments. Designed for transformative leadership, the course empowers executives to re-engineer end-to-end supply chains for long-term value creation.",
+    "targets": [
+      "Chief Procurement Officers (CPOs) & Supply Chain VPs",
+      "Directors of Sourcing, Logistics & Operations",
+      "ESG & Sustainability Directors aligning value chains",
+      "Senior Executives leading corporate transformation"
+    ],
+    "image": "assets/images/real/programmes/sustainable-supply-chain-leadership.jpg"
   },
   {
     "id": "circular-economy-business-models",
-    "category": "Strategy & Operations",
+    "tab": "executive",
     "title": "Circular Economy Business Models",
-    "tagline": "Circular business models that reduce waste and create revenue from resource efficiency.",
-    "whoFor": "Manufacturing & product executives",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/circular-economy-business-models.jpg",
-    "featured": false
+    "description": "This executive programme offers a deep dive into circular design (Ecodesign), product-service systems (PSS), remanufacturing, and reverse supply chain logistics. Participants will learn how to decouple corporate revenue growth from primary resource consumption, optimize total cost of ownership (TCO), implement Digital Product Passports (DPP), and redesign revenue models through leasing, sharing, and pay-per-use frameworks. Through real-world industrial case studies, manufacturing labs, and executive workshops, participants will convert environmental imperatives into dynamic competitive advantages.",
+    "targets": [
+      "VPs of Manufacturing & Operations",
+      "Chief Product Officers & Heads of R&D / Design",
+      "Plant Managers & Industrial Engineering Directors",
+      "Supply Chain & Circularity Transformation Leads"
+    ],
+    "image": "assets/images/real/programmes/circular-economy-business-models.jpg"
+  },
+  {
+    "id": "net-zero-strategy-carbon-management",
+    "tab": "executive",
+    "title": "Net Zero Strategy and Carbon Management",
+    "description": "This executive programme offers a comprehensive immersion into decarbonization strategy, GHG emissions accounting, carbon offset markets, and climate-related financial disclosures. Participants will gain practical expertise in setting Science Based Targets (SBTi), conducting Scope 1, 2, and 3 carbon inventories, designing marginal abatement cost curves (MACC), and integrating climate risks into overall corporate planning. Through real-world case studies and executive workshops, leaders will learn to translate climate commitments into actionable operational roadmaps.",
+    "targets": [
+      "Chief Sustainability Officers (CSOs) & ESG Directors",
+      "Heads of Corporate Strategy & Transformation Leads",
+      "Carbon Accounting & Environmental Managers",
+      "Risk & Finance Executives evaluating climate transition risks"
+    ],
+    "image": "assets/images/real/programmes/net-zero-strategy-carbon-management.jpg"
   },
   {
     "id": "impact-investing-blended-finance",
-    "category": "Finance & Investment",
+    "tab": "executive",
     "title": "Impact Investing & Blended Finance",
-    "tagline": "How to structure blended finance deals combining commercial and impact-driven capital.",
-    "whoFor": "Investors, fund managers, DFIs",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/impact-investing-blended-finance.jpg",
-    "featured": false
+    "description": "This 4-day executive masterclass delivers an in-depth exploration of capital stack structuring, impact measurement and management (IMM), catalytic concessionary capital, risk-mitigation instruments (guarantees, first-loss equity), and SDG-aligned investment strategies. Participants will analyze real-world blended finance deal structures, evaluate green/social bond issuances, and design innovative investment vehicles capable of mobilizing commercial capital into high-impact sectors like climate mitigation, infrastructure, and financial inclusion.",
+    "targets": [
+      "Development Finance Institutions (DFIs) & MDBs",
+      "Impact Fund Managers & Private Equity / VC Partners",
+      "Institutional Investors & Pension Fund Managers",
+      "Philanthropic Foundations & Family Offices",
+      "Sovereign Wealth Funds & Government Treasuries"
+    ],
+    "image": "assets/images/real/programmes/impact-investing-blended-finance.jpg"
   },
   {
     "id": "renewable-energy-project-finance",
-    "category": "Finance & Investment",
-    "title": "Renewable Energy Project Finance",
-    "tagline": "A practical grounding in financing renewable energy projects from structuring through to close.",
-    "whoFor": "Bankers, project developers",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/renewable-energy-project-finance.jpg",
-    "featured": false
+    "tab": "executive",
+    "title": "Renewable Energy Finance",
+    "description": "This 4-day executive programme provides a comprehensive deep dive into the financial mechanics, risk allocation frameworks, and cash-flow modeling of utility-scale and commercial/industrial (C&I) renewable energy projects. Participants will explore solar, wind, battery storage (BESS), and green hydrogen economics, evaluate long-term off-take contracts, analyze term sheets, and learn how to optimize capital structures to achieve competitive Levelized Cost of Energy (LCOE) while meeting strict debt service coverage ratios (DSCR).",
+    "targets": [
+      "Commercial & Investment Bankers: Credit analysts, structured finance officers, and project finance leads.",
+      "Project Developers & IPPs: C-suite executives, project originators, and financial modelers in renewable energy.",
+      "Development Finance Institutions (DFIs): Investment officers, risk managers, and blended finance specialists.",
+      "Advisors & Investors: Legal counsels, technical consultants, and infrastructure fund managers."
+    ],
+    "image": "assets/images/real/programmes/renewable-energy-project-finance.jpg"
   },
   {
     "id": "sustainable-agribusiness-leadership",
-    "category": "Strategy & Operations",
+    "tab": "executive",
     "title": "Sustainable Agribusiness Leadership",
-    "tagline": "Building climate-smart, bankable agribusiness operations.",
-    "whoFor": "Agribusiness executives",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/sustainable-agribusiness-leadership.jpg",
-    "featured": false
+    "description": "This intensive 4-day executive curriculum delivers a comprehensive exploration of modern sustainable agribusiness strategy. Participants will dive deep into regenerative supply chains, carbon market integration, digital ag-tech innovations, and green financing mechanisms. Through real-world case studies, executive peer exchanges, and practical strategic exercises, senior leaders will formulate actionable roadmaps to balance long-term environmental stewardship with immediate commercial profitability.",
+    "targets": [
+      "C-Suite Executives & Managing Directors: Chief Executive Officers, Chief Operating Officers, and Managing Directors of agricultural production, processing, and distribution companies.",
+      "Agribusiness Directors & Division Heads: Supply chain, sustainability, corporate strategy, and operations leaders.",
+      "Agricultural Investors & Financiers: Venture capitalists, impact investment managers, and commercial banking executives specializing in agri-finance and ESG portfolio management.",
+      "Policy Makers & Cooperatives Executives: Senior leaders from agricultural development agencies, trade associations, and large producer cooperatives."
+    ],
+    "image": "assets/images/real/programmes/sustainable-agribusiness-leadership.jpg"
   },
   {
     "id": "water-stewardship-business-risk",
-    "category": "Climate & Risk",
-    "title": "Water Stewardship & Business Risk",
-    "tagline": "Water-related business risk and practical stewardship for operations and risk leaders.",
-    "whoFor": "Operations & risk leaders",
-    "duration": "2 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/water-stewardship-business-risk.jpg",
-    "featured": false
+    "tab": "executive",
+    "title": "Water Stewardship and Business Risk",
+    "description": "This intensive 2-day executive curriculum delivers a focused, practical exploration of modern water stewardship strategies and corporate risk mitigation. Participants will master tools to quantify water basin footprints, assess operational and supply chain vulnerabilities, navigate evolving ESG compliance standards, and implement collective catchment action. Through interactive case studies, scenario modeling, and strategic peer exchanges, decision-makers will develop an actionable water resilience roadmap tailored to their enterprise context.",
+    "targets": [
+      "Chief Risk Officers & Risk Management Directors: Leaders responsible for enterprise risk management (ERM), business continuity, and climate resilience planning.",
+      "Chief Operating Officers & Operations Vice Presidents: Executives managing manufacturing, processing, facilities, and resource-intensive asset portfolios.",
+      "Supply Chain & Procurement Directors: Leaders overseeing upstream supplier risk, sourcing resilience, and natural resource dependencies.",
+      "EHS & Sustainability Executives: Directors of Environmental, Health, and Safety (EHS), ESG compliance, and corporate sustainability strategy."
+    ],
+    "image": "assets/images/real/programmes/water-stewardship-business-risk.jpg"
   },
   {
     "id": "biodiversity-natural-capital-business",
-    "category": "Climate & Risk",
+    "tab": "executive",
     "title": "Biodiversity & Natural Capital for Business",
-    "tagline": "Biodiversity and natural capital as a growing part of corporate sustainability strategy.",
-    "whoFor": "Sustainability & strategy leads",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/biodiversity-natural-capital-business.jpg",
-    "featured": false
+    "description": "This comprehensive 3-day executive programme explores the strategic integration of biodiversity and natural capital assessment into core business models. Participants will examine frameworks such as the Taskforce on Nature-related Financial Disclosures (TNFD), Science Based Targets Network (SBTN), and natural capital accounting standards. Through practical case studies, interactive scenario analysis, and peer collaboration, executives will learn how to evaluate corporate impacts on ecosystems, manage nature-related supply chain risks, and design commercial strategies that drive net-positive nature outcomes.",
+    "targets": [
+      "Chief Sustainability Officers (CSOs) & ESG Directors: Executives responsible for setting corporate environmental targets, compliance, and ESG strategy.",
+      "Chief Strategy Officers & Corporate Planners: Leaders integrating physical, regulatory, and transition risks into long-term enterprise strategy.",
+      "Risk Management & Compliance Executives: Directors overseeing corporate risk registers, TNFD disclosures, and supply chain accountability.",
+      "Investment & Corporate Finance Leaders: Asset managers, corporate development heads, and financiers evaluating natural capital assets, biodiversity credits, and nature-related risk portfolios."
+    ],
+    "image": "assets/images/real/programmes/biodiversity-natural-capital-business.jpg"
   },
   {
     "id": "esg-due-diligence-ma-investment",
-    "category": "Finance & Investment",
+    "tab": "executive",
     "title": "ESG Due Diligence for M&A and Investment",
-    "tagline": "How to run ESG due diligence as part of M&A and investment decisions.",
-    "whoFor": "Investment & deal teams",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/esg-due-diligence-ma-investment.jpg",
-    "featured": false
+    "description": "This intensive 3-day programme provides deal practitioners, investment professionals, and transaction advisors with actionable methodologies to conduct comprehensive ESG due diligence. Participants will learn how to translate ESG risks and opportunities into financial valuation models, draft robust deal terms and SPA representations, navigate evolving regulatory mandates (e.g., SFDR, CSRD, EU Taxonomy), and structure post-acquisition 100-day value creation roadmaps. Through practical case studies, red-flag screening exercises, and financial modeling labs, executives will master integrating ESG considerations into every stage of transaction execution.",
+    "targets": [
+      "Private Equity & Venture Capital Investment Teams: Deal leads, associates, principals, and partners structuring buyouts and growth investments.",
+      "M&A & Corporate Development Executives: In-house deal teams driving strategic acquisitions, joint ventures, and divestitures.",
+      "Transaction Advisory & Investment Banking Professionals: Advisors conducting financial, operational, and vendor due diligence for buy-side or sell-side clients.",
+      "Asset Managers & Institutional Investors: Portfolio managers and ESG integration leads evaluating direct investment risk and deal quality."
+    ],
+    "image": "assets/images/real/programmes/esg-due-diligence-ma-investment.jpg"
   },
   {
     "id": "stakeholder-engagement-social-license",
-    "category": "Leadership & Governance",
+    "tab": "executive",
     "title": "Stakeholder Engagement & Social License",
-    "tagline": "Equips leaders to manage stakeholder relationships and protect a company's social license to operate.",
-    "whoFor": "Public affairs, community relations",
-    "duration": "2 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/stakeholder-engagement-social-license.jpg",
-    "featured": false
+    "description": "This intensive 2-day programme equips public affairs, community relations, and external engagement professionals with practical tools to navigate complex stakeholder landscapes. Participants will master dynamic stakeholder mapping, multi-party negotiation strategies, human rights impact assessments, and conflict resolution mechanisms. Through real-world simulation exercises, risk-scenario planning, and case studies, decision-makers will learn how to quantify social risk, establish meaningful community co-design models, and build resilience against reputational, regulatory, and operational disruptions.",
+    "targets": [
+      "Public Affairs & Government Relations Executives: Leaders shaping regulatory engagement, policy advocacy, and institutional reputation.",
+      "Community Relations & CSR Directors: Managers establishing local community partnerships, social investment programmes, and grievance mechanisms.",
+      "Corporate Communications & PR Leaders: Strategists overseeing crisis communications, brand reputation, and stakeholder alignment.",
+      "Infrastructure, Energy, & Resource Project Managers: Operational leaders executing capital projects requiring local community consent and regulatory approval."
+    ],
+    "image": "assets/images/real/programmes/stakeholder-engagement-social-license.jpg"
   },
   {
     "id": "sustainable-real-estate-infrastructure",
-    "category": "Strategy & Operations",
+    "tab": "executive",
     "title": "Sustainable Real Estate & Infrastructure",
-    "tagline": "Sustainable design, financing and operating practice for real estate and infrastructure.",
-    "whoFor": "Developers, infrastructure executives",
-    "duration": "4 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/sustainable-real-estate-infrastructure.jpg",
-    "featured": false
+    "description": "This comprehensive 4-day executive programme delivers a masterclass on integrating sustainability into every stage of the asset lifecycle—from site selection, master planning, and sustainable finance to green construction, retrofit, and asset operation. Participants will analyze green building certification standards (LEED, BREEAM, EDGE, GRESB), master green bonds and sustainability-linked loans, structure public-private partnerships (PPPs) for resilient infrastructure, and quantify climate risk using TCFD and CRREM frameworks. Through real-world case studies, financial modeling labs, and interactive strategy sessions, executives will learn how to turn sustainability mandates into competitive advantages.",
+    "targets": [
+      "Real Estate Developers & Master Planners: C-suite leaders, development managers, and land acquisition directors leading commercial, residential, or mixed-use projects.",
+      "Infrastructure Executives & Asset Managers: Senior leaders across energy, transport, utilities, and public infrastructure managing large-scale capital deployments.",
+      "Construction & EPC Directors: Executive engineering and procurement leads adopting circular building methods and low-embodied carbon materials.",
+      "Institutional Real Estate Investors & Lenders: Portfolio managers, REIT executives, and project finance leads underwriting green infrastructure assets."
+    ],
+    "image": "assets/images/real/programmes/sustainable-real-estate-infrastructure.jpg"
   },
   {
     "id": "climate-adaptation-planning-executives",
-    "category": "Climate & Risk",
+    "tab": "executive",
     "title": "Climate Adaptation Planning for Executives",
-    "tagline": "Building adaptation plans that prepare the business for physical climate impacts.",
-    "whoFor": "Senior leadership, planners",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/climate-adaptation-planning-executives.jpg",
-    "featured": false
+    "description": "This intensive 3-day executive programme provides senior decision-makers with the frameworks, analytics, and governance tools required to navigate physical climate risks. Participants will master IPCC scenario planning, evaluate asset-level climate vulnerability, structure adaptation finance mechanisms, and integrate resilience metrics into corporate strategy and urban planning. Through interactive risk-modeling labs, strategic simulations, and real-world case studies, leaders will learn how to turn climate adaptation challenges into competitive advantages and resilient enterprise value.",
+    "targets": [
+      "C-Suite Executives & Board Members: Chief Risk Officers (CROs), Chief Operating Officers (COOs), Chief Strategy Officers (CSOs), and Board Directors overseeing enterprise risk.",
+      "Strategic & Urban Planners: Senior corporate strategists, municipal infrastructure planners, and regional development leads shaping long-term capital investments.",
+      "Supply Chain & Operations Directors: Senior operational leads managing global supply networks, critical logistics, and physical asset portfolios.",
+      "Risk Management & ESG Leaders: Enterprise risk managers, sustainability vice presidents, and public sector policy directors structuring climate resilience initiatives."
+    ],
+    "image": "assets/images/real/programmes/climate-adaptation-planning-executives.jpg"
   },
   {
     "id": "green-marketing-sustainable-brand-strategy",
-    "category": "Strategy & Operations",
+    "tab": "executive",
     "title": "Green Marketing & Sustainable Brand Strategy",
-    "tagline": "Communicating sustainability credibly without greenwashing.",
-    "whoFor": "Marketing & brand executives",
-    "duration": "2 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/green-marketing-sustainable-brand-strategy.jpg",
-    "featured": false
+    "description": "This executive program provides a deep dive into the strategic integration of sustainability within brand management and marketing operations. Over two intensive days, participants will explore the commercial dynamics of green consumerism, circular business models, and strategic communications. Combining global case studies, practical toolkits, and interactive strategy sessions, the curriculum unpacks how to craft authentic sustainability narratives, navigate regulatory frameworks (such as anti-greenwashing directives), redesign customer value propositions, and measure the ROI of green initiatives.",
+    "targets": [
+      "Senior Marketing Leaders, Chief Marketing Officers (CMOs), Brand Strategy Directors, Product Managers, Sustainability & Corporate Affairs Executives, and Business Unit Leaders who are responsible for market growth, customer engagement, and brand reputation."
+    ],
+    "image": "assets/images/real/programmes/green-marketing-sustainable-brand-strategy.jpg"
   },
   {
     "id": "corporate-governance-sustainable-enterprise",
-    "category": "Leadership & Governance",
+    "tab": "executive",
     "title": "Corporate Governance for Sustainable Enterprise",
-    "tagline": "Governance structures and board practice needed to embed sustainability into corporate decision-making.",
-    "whoFor": "Directors, company secretaries",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/corporate-governance-sustainable-enterprise.jpg",
-    "featured": false
+    "description": "This 3-day executive masterclass delivers an immersive exploration into modern boardroom stewardship, fiduciary responsibilities, and sustainability-led governance. Participants will evaluate how board structures, committee charters, and secretarial practices must adapt to global sustainability standards and stakeholder governance models. Through interactive board simulations, real-world case analyses, and expert-led discussions, the curriculum equips board members and executive officers to effectively oversee climate risk, corporate culture, executive remuneration, disclosure mandates, and ethical governance across global markets.",
+    "targets": [
+      "Executive and Non-Executive Board Directors, Independent Directors, Board Chairs, Board Committee Members, Company Secretaries, General Counsels, and Governance Officers responsible for corporate oversight, regulatory compliance, and boardroom operations."
+    ],
+    "image": "assets/images/real/programmes/corporate-governance-sustainable-enterprise.jpg"
   },
   {
-    "id": "financial-reporting-sustainability",
-    "category": "Finance & Investment",
-    "title": "Financial Reporting and Sustainability",
-    "tagline": "Links financial reporting practice with sustainability performance for senior finance leaders.",
-    "whoFor": "CFO, COO, Senior manager",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/financial-reporting-sustainability.jpg",
-    "featured": false
+    "id": "certificate-sustainable-supply-chain-fundamentals",
+    "tab": "certificate",
+    "title": "Certificate in Sustainable Supply Chain Fundamentals",
+    "description": "This online program offers a foundational examination of sustainable logistics, green procurement, Scope 3 emission accounting, circular supply chain dynamics, and responsible supplier governance. Delivered through self-paced online modules, real-world case studies, and practical supply chain auditing exercises, participants learn how to measure supply chain carbon footprints, evaluate ethical sourcing standards, streamline green logistics, and implement closed-loop product loops.",
+    "targets": [
+      "Supply Chain & Logistics Managers",
+      "Procurement & Sourcing Specialists",
+      "Operations & Inventory Leaders",
+      "Sustainability & ESG Coordinators",
+      "Entrepreneurs & Business Owners"
+    ],
+    "image": "assets/images/real/programmes/certificate-sustainable-supply-chain-fundamentals.jpg"
   },
   {
-    "id": "sustainable-investment-finance-masterclass",
-    "category": "Finance & Investment",
-    "title": "Sustainable Investment and Finance Masterclass",
-    "tagline": "Integrating sustainability considerations into investment and finance decision-making.",
-    "whoFor": "Investment manager, COO, CFOs",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/sustainable-investment-finance-masterclass.jpg",
-    "featured": true
+    "id": "certificate-green-building-sustainable-infrastructure",
+    "tab": "certificate",
+    "title": "Certificate in Green Building and Sustainable Infrastructure",
+    "description": "This course delivers a comprehensive exploration of sustainable design principles, green rating systems (LEED, BREEAM, EDGE, Envision), embodied carbon analysis, smart building technologies, and climate-resilient civil infrastructure. Combining self-paced interactive online coursework, real-world case study evaluations, lifecycle assessment software labs, and executive design workshops, participants gain practical expertise to lead decarbonization across the life cycle of buildings and urban infrastructure projects.",
+    "targets": [
+      "Architects & Urban Planners",
+      "Civil & Structural Engineers",
+      "Real Estate Developers",
+      "Sustainability Consultants",
+      "Public Sector Officials"
+    ],
+    "image": "assets/images/real/programmes/certificate-green-building-sustainable-infrastructure.jpg"
   },
   {
-    "id": "green-business-strategy-senior-leader",
-    "category": "Strategy & Operations",
-    "title": "Green Business Strategy for Senior Leader",
-    "tagline": "Building a green growth strategy that holds up commercially.",
-    "whoFor": "Business leaders, COO, CFO",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/green-business-strategy-senior-leader.jpg",
-    "featured": true
+    "id": "certificate-renewable-energy-business-fundamentals",
+    "tab": "certificate",
+    "title": "Certificate in Renewable Energy Business Fundamentals",
+    "description": "This course delivers a rigorous exploration of the commercial value chain in the renewable energy sector. Participants will study market fundamentals, clean energy technologies, bankability assessment, financial modeling basics, revenue models, and risk mitigation strategies across utility-scale and distributed energy resources (DERs). Combining interactive online coursework with practical executive workshop sessions, real-world deal case studies, and financial modeling exercises, the program prepares learners to evaluate project feasibility, structure clean energy deals, and capitalize on emerging green market opportunities.",
+    "targets": [
+      "Clean Energy Entrepreneurs: Founders and developers scaling renewable energy startups.",
+      "Corporate Energy Managers: Executives managing corporate procurement and decarbonization.",
+      "Investment Bankers & Financiers: Analysts and deal leads evaluating clean energy assets.",
+      "Policy Makers & Regulators: Officials shaping energy transition frameworks.",
+      "Consultants & Legal Advisors: Professionals advising clients in energy transactions."
+    ],
+    "image": "assets/images/real/programmes/certificate-renewable-energy-business-fundamentals.jpg"
   },
   {
-    "id": "strategic-esg-sustainability-masterclass",
-    "category": "Leadership & Governance",
-    "title": "Strategic ESG Sustainability Masterclass",
-    "tagline": "A senior masterclass tying ESG strategy, governance and performance into one coherent leadership view.",
-    "whoFor": "COOs, CFOs, Investors etc.",
-    "duration": "3 days",
-    "format": "On-site",
-    "image": "assets/images/real/programmes/strategic-esg-sustainability-masterclass.jpg",
-    "featured": true
+    "id": "certificate-climate-risk-analytics",
+    "tab": "certificate",
+    "title": "Certificate in Climate Risk Analytics",
+    "description": "This course delivers a comprehensive, quantitative, and practical framework for analyzing climate risks across physical (acute and chronic) and transition (policy, legal, technology, market) risk dimensions. Participants will learn how to leverage climate datasets (IPCC, NGFS, NASA, Copernicus), apply climate scenario modeling, and assess financial vulnerability. Delivered entirely online through interactive digital modules, hands-on data analytics labs, and real-world case studies, the course empowers learners to evaluate asset-level risk exposure, align with international disclosures (TCFD, ISSB, CSRD), and formulate climate resilience strategies.",
+    "targets": [
+      "Risk Officers & Financial Analysts: Professionals managing corporate enterprise risk and asset exposure.",
+      "Sustainability & ESG Specialists: Managers translating climate targets into data-driven risk strategies.",
+      "Investment Managers & Underwriters: Portfolio managers and insurers evaluating climate risk profiles.",
+      "Policy Makers & Urban Planners: Officials assessing public infrastructure vulnerability.",
+      "Data Scientists & Analysts: Technical specialists expanding into climate data analytics."
+    ],
+    "image": "assets/images/real/programmes/certificate-climate-risk-analytics.jpg"
+  },
+  {
+    "id": "certificate-circular-economy-african-manufacturing",
+    "tab": "certificate",
+    "title": "Certificate in Circular Economy for African Manufacturing",
+    "description": "This course delivers a comprehensive exploration of circular design, industrial symbiosis, closed-loop supply chains, and resource efficiency within African industrial ecosystems (e.g., textiles, agri-processing, plastics, construction materials, and metals). Combining interactive online learning with hands-on industrial site audits, case studies, and practical design workshops, participants gain actionable skills to redesign production processes, eliminate industrial waste, monetise byproduct streams, and access green industrial financing.",
+    "targets": [
+      "Plant & Operations Managers: Manufacturing leaders optimizing plant efficiency.",
+      "Product Designers & R&D Engineers: Technical staff designing circular products.",
+      "Industrial Policy & Zone Managers: Eco-industrial park directors & regulators.",
+      "Supply Chain & Sourcing Directors: Executives managing raw materials.",
+      "Sustainability & ESG Officers: Corporate leads driving decarbonization."
+    ],
+    "image": "assets/images/real/programmes/certificate-circular-economy-african-manufacturing.jpg"
+  },
+  {
+    "id": "certificate-impact-measurement-sroi",
+    "tab": "certificate",
+    "title": "Certificate in Impact Measurement & SROI",
+    "description": "This course delivers a comprehensive, step-by-step guide to measuring impact and calculating SROI. Participants will learn how to build Theory of Change (ToC) models, map social outcomes, assign financial proxies, and apply rigorous adjustments for deadweight, attribution, displacement, and drop-off. Through interactive digital modules, real-world case studies, and hands-on SROI calculation exercises, participants gain the technical mastery needed to formulate credible impact reports and communicate social value effectively to stakeholders, boards, and impact investors.",
+    "targets": [
+      "Impact Measurement & Evaluation (M&E) Specialists: Officers quantifying project outcomes.",
+      "Social Enterprise Leaders & Founders: Managers demonstrating value to investors.",
+      "ESG & Corporate Sustainability Managers: Executives quantifying corporate CSR impact.",
+      "Impact Investors & Grantmakers: Analysts conducting due diligence on social returns.",
+      "NGO & Non-Profit Directors: Leaders seeking to optimize and justify donor funding."
+    ],
+    "image": "assets/images/real/programmes/certificate-impact-measurement-sroi.jpg"
+  },
+  {
+    "id": "certificate-sustainable-agribusiness-management",
+    "tab": "certificate",
+    "title": "Certificate in Sustainable Agribusiness Management",
+    "description": "This course delivers an end-to-end operational and strategic perspective on sustainable agriculture. Participants explore regenerative farming models, climate-smart food production, ag-tech integration, sustainable supply chain logistics, and impact finance in agriculture. Combining digital learning modules with hands-on workshops and field-level case studies, the blended format enables participants to apply sustainable practices directly to farming operations, enterprise management, and agricultural investment portfolios.",
+    "targets": [
+      "Agribusiness Executives & Owners: Managers steering commercial farming operations.",
+      "Agri-Entrepreneurs (AgTech): Innovators building sustainable food & farm ventures.",
+      "Supply Chain & Sourcing Managers: Professionals sourcing raw agricultural commodities.",
+      "Agricultural Finance Officers: Investors, bankers, and grant managers in agriculture.",
+      "Development & NGO Specialists: Field directors promoting sustainable rural livelihoods."
+    ],
+    "image": "assets/images/real/programmes/certificate-sustainable-agribusiness-management.jpg"
+  },
+  {
+    "id": "certificate-carbon-markets",
+    "tab": "certificate",
+    "title": "Certificate in Carbon Markets",
+    "description": "This course delivers a comprehensive exploration of both Compliance Carbon Markets (CCMs) and Voluntary Carbon Markets (VCMs). Participants will gain detailed insights into Emission Trading Schemes (ETS), carbon offset project methodologies, Article 6 of the Paris Agreement, credit verification standards, and pricing dynamics. Delivered entirely online through flexible interactive modules, practical case studies, and live expert sessions, the curriculum equips professionals to successfully trade, invest in, develop, or oversee carbon market instruments within modern corporate and financial frameworks.",
+    "targets": [
+      "Sustainability & Climate Officers: Leaders shaping corporate net-zero strategy.",
+      "Traders & Commodity Analysts: Financial professionals entering carbon trading desks.",
+      "Project Developers & Investors: Entities funding or originating carbon offset initiatives.",
+      "Policy Makers & Regulators: Officials designing climate policy and market controls.",
+      "ESG Consultants & Legal Advisors: Experts counseling clients on carbon compliance."
+    ],
+    "image": "assets/images/real/programmes/certificate-carbon-markets.jpg"
+  },
+  {
+    "id": "certificate-responsible-investment-esg-investing",
+    "tab": "certificate",
+    "title": "Certificate in Responsible Investment & ESG Investing",
+    "description": "This online course offers an in-depth exploration of sustainable finance, responsible investment strategies, ESG metrics analysis, and active stewardship. Participants will master how to analyze ESG ratings, conduct double materiality assessments, construct ESG-integrated portfolios, and mitigate greenwashing risks across public and private asset classes. Delivered via dynamic virtual modules, interactive financial case studies, and practical valuation modeling exercises, learners will gain the practical skills needed to align investment portfolios with sustainable economic goals while maximizing risk-adjusted financial returns.",
+    "targets": [
+      "Asset Managers & Investment Analysts: Professionals looking to embed ESG criteria into portfolio evaluation.",
+      "Wealth Managers & Financial Advisors: Advisors building responsible investment solutions for clients.",
+      "Corporate Finance Professionals: Executives aligning capital allocation with corporate sustainability.",
+      "ESG & Sustainability Specialists: Practitioners needing a formal finance and valuation framework.",
+      "Risk & Compliance Officers: Personnel monitoring sustainable finance regulations and reporting."
+    ],
+    "image": "assets/images/real/programmes/sustainable-investment-finance-masterclass.jpg"
+  },
+  {
+    "id": "certificate-esg-reporting",
+    "tab": "certificate",
+    "title": "Certificate in ESG Reporting",
+    "description": "This course provides a comprehensive exploration of modern ESG frameworks, data collection methodologies, materiality assessments, and regulatory compliance. Participants will learn how to align organisational strategies with global reporting standards, accurately measure environmental and social metrics, navigate climate-related disclosures, and mitigate greenwashing risks. Combining theoretical foundations with practical case studies and hands-on disclosure drafting, the course equips participants to effectively manage their organisation's ESG journey, from data gathering and analysis to final report preparation, publication, and stakeholder engagement.",
+    "targets": [
+      "CSR & Sustainability Managers: Professionals responsible for corporate sustainability strategies and ESG disclosures.",
+      "Financial & Risk Officers: CFOs, accountants, financial professionals, and risk managers integrating ESG metrics into business reporting.",
+      "Legal & Compliance Teams: Professionals responsible for ensuring compliance with ESG regulations and reporting requirements.",
+      "Investors & Analysts: Professionals assessing companies and investment portfolios based on ESG performance.",
+      "Corporate Consultants: Advisors supporting organisations and clients with ESG strategy and sustainability reporting."
+    ],
+    "image": "assets/images/real/programmes/financial-reporting-sustainability.jpg"
   }
 ]
