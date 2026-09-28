@@ -39,6 +39,47 @@ function setActiveNavLink() {
   });
 }
 
+/* ---- Nav sub-options ---- */
+function closeMobileMenu() {
+  const nav = document.getElementById('mainNav');
+  const toggle = document.getElementById('navToggle');
+  if (nav) nav.classList.remove('is-open');
+  if (toggle) {
+    toggle.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+}
+
+function collapseNavItems(except) {
+  document.querySelectorAll('.nav-item.is-open').forEach(item => {
+    if (item === except) return;
+    item.classList.remove('is-open');
+    item.querySelector('.nav-item__toggle')?.setAttribute('aria-expanded', 'false');
+  });
+}
+
+document.addEventListener('click', (e) => {
+  const toggle = e.target.closest('.nav-item__toggle');
+  if (toggle) {
+    const item = toggle.closest('.nav-item');
+    const open = item.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    collapseNavItems(item); // one open at a time
+    return;
+  }
+
+  const subLink = e.target.closest('.nav-sub a');
+  if (subLink) {
+    collapseNavItems();
+    closeMobileMenu();
+    subLink.blur(); // stops desktop :focus-within keeping the dropdown open
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') collapseNavItems();
+});
+
 function initNewsletterForm() {
   const form = document.getElementById('newsletterForm');
   if (!form) return;
