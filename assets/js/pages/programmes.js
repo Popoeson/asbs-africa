@@ -108,24 +108,41 @@ function initDescriptionToggles() {
   });
 }
 
-function scrollToHash() {
-  if (!location.hash) return;
-  const target = document.querySelector(location.hash);
-  if (target) target.scrollIntoView({ behavior: 'smooth' });
+function setActiveTab(tabName) {
+  activeTab = tabName;
+  document.querySelectorAll('.programme-tab').forEach(t => {
+    t.classList.toggle('is-active', t.dataset.tab === tabName);
+  });
+  renderList();
 }
 
-async function initProgrammesPage() {
-  try {
-    const res = await fetch('data/programmes.json');
-    allProgrammes = await res.json();
-    renderList();
-    initTabs();
-    initSearch();
-    initDescriptionToggles();
-    scrollToHash();
-  } catch (err) {
-    console.error('Could not load programmes:', err);
+function initTabs() {
+  document.querySelectorAll('.programme-tab').forEach(tab => {
+    tab.addEventListener('click', () => setActiveTab(tab.dataset.tab));
+  });
+}
+
+function handleHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+
+  // Sub-menu links: switch to the matching tab and clear any search
+  if (TAB_BY_ID[id]) {
+    searchQuery = '';
+    document.getElementById('programmeSearch').value = '';
+    setActiveTab(TAB_BY_ID[id]);
+  } else {
+    // Deep links to a single course (e.g. programmes.html#certificate-carbon-markets)
+    const course = allProgrammes.find(p => p.id === id);
+    if (course && course.tab !== activeTab) {
+      searchQuery = '';
+      document.getElementById('programmeSearch').value = '';
+      setActiveTab(course.tab);
+    }
   }
+
+  const target = document.getElementById(id);
+  if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 document.addEventListener('DOMContentLoaded', initProgrammesPage);
