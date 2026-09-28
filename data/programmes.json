@@ -253,7 +253,7 @@
       "Sustainability & ESG Coordinators",
       "Entrepreneurs & Business Owners"
     ],
-    "image": "assets/images/real/programmes/certificate-sustainable-supply-chain-fundamentals.jpg"
+    "image": "assets/images/real/programmes/sustainable-supply-chain-leadership.jpg"
   },
   {
     "id": "biodiversity-natural-capital-business",
@@ -267,7 +267,7 @@
       "Sustainability Consultants",
       "Public Sector Officials"
     ],
-    "image": "assets/images/real/programmes/certificate-green-building-sustainable-infrastructure.jpg"
+    "image": "assets/images/real/programmes/biodiversity-natural-capital-business.jpg"
   },
   {
     "id": "renewable-energy-project-finance",
@@ -281,7 +281,7 @@
       "Policy Makers & Regulators: Officials shaping energy transition frameworks.",
       "Consultants & Legal Advisors: Professionals advising clients in energy transactions."
     ],
-    "image": "assets/images/real/programmes/certificate-renewable-energy-business-fundamentals.jpg"
+    "image": "assets/images/real/programmes/renewable-energy-project-finance.jpg"
   },
   {
     "id": "climate-risk-management-executives",
@@ -295,7 +295,7 @@
       "Policy Makers & Urban Planners: Officials assessing public infrastructure vulnerability.",
       "Data Scientists & Analysts: Technical specialists expanding into climate data analytics."
     ],
-    "image": "assets/images/real/programmes/certificate-climate-risk-analytics.jpg"
+    "image": "assets/images/real/programmes/climate-risk-management-executives.jpg"
   },
   {
     "id": "green-marketing-sustainable-brand-strategy",
@@ -309,7 +309,7 @@
       "Supply Chain & Sourcing Directors: Executives managing raw materials.",
       "Sustainability & ESG Officers: Corporate leads driving decarbonization."
     ],
-    "image": "assets/images/real/programmes/certificate-circular-economy-african-manufacturing.jpg"
+    "image": "assets/images/real/programmes/green-marketing-sustainable-brand-strategy.jpg"
   },
   {
     "id": "corporate-governance-sustainable-enterprise",
@@ -323,7 +323,7 @@
       "Impact Investors & Grantmakers: Analysts conducting due diligence on social returns.",
       "NGO & Non-Profit Directors: Leaders seeking to optimize and justify donor funding."
     ],
-    "image": "assets/images/real/programmes/certificate-impact-measurement-sroi.jpg"
+    "image": "assets/images/real/programmes/corporate-governance-sustainable-enterprise.jpg"
   },
   {
     "id": "sustainable-agribusiness-leadership",
@@ -351,7 +351,7 @@
       "Policy Makers & Regulators: Officials designing climate policy and market controls.",
       "ESG Consultants & Legal Advisors: Experts counseling clients on carbon compliance."
     ],
-    "image": "assets/images/real/programmes/certificate-carbon-markets.jpg"
+    "image": "assets/images/real/programmes/net-zero-strategy-carbon-management.jpg"
   },
   {
     "id": "certificate-responsible-investment-esg-investing",
