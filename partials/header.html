@@ -11,30 +11,8 @@
     <nav class="main-nav" id="mainNav">
       <div class="main-nav__links">
 
-        <div class="nav-item">
-          <a href="index.html" data-page="index.html">Home</a>
-          <button type="button" class="nav-item__toggle" aria-label="Show Home sections" aria-expanded="false" aria-controls="subHome">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav-sub" id="subHome">
-            <ul>
-              <li><a href="index.html#events">Events</a></li>
-              <li><a href="index.html#partners">Partners</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="nav-item">
-          <a href="about.html" data-page="about.html">About</a>
-          <button type="button" class="nav-item__toggle" aria-label="Show About sections" aria-expanded="false" aria-controls="subAbout">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav-sub" id="subAbout">
-            <ul>
-              <li><a href="about.html#faculty-team">Faculty Team</a></li>
-            </ul>
-          </div>
-        </div>
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
 
         <div class="nav-item">
           <a href="programmes.html" data-page="programmes.html">Programmes</a>
@@ -49,8 +27,22 @@
           </div>
         </div>
 
+        <div class="nav-item">
+          <button type="button" class="nav-item__toggle nav-item__toggle--label" aria-label="Show more options" aria-expanded="false" aria-controls="subMore">
+            More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-sub" id="subMore">
+            <ul>
+              <li><a href="index.html#partners">Partners</a></li>
+              <li><a href="about.html#faculty-team">Faculty Team</a></li>
+              <li><a href="index.html#events">Our Events</a></li>
+            </ul>
+          </div>
+        </div>
+
       </div>
-      <!-- <a href="programmes.html" class="btn btn-primary main-nav__apply">Apply</a> -->
+      <a href="programmes.html" class="btn btn-primary main-nav__apply">Apply</a>
     </nav>
   </div>
 </header>
