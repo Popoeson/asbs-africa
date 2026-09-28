@@ -94,6 +94,42 @@ function initNewsletterForm() {
   });
 }
 
+function initHeaderAutoHide() {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  const THRESHOLD = 4; // px of movement before reacting; keeps it responsive but ignores jitter
+  let lastY = window.scrollY;
+  let ticking = false;
+
+  function update() {
+    const y = Math.max(window.scrollY, 0); // guards against iOS rubber-banding
+    const delta = y - lastY;
+    ticking = false;
+
+    if (Math.abs(delta) < THRESHOLD) return;
+
+    const menuOpen = document.getElementById('mainNav')?.classList.contains('is-open');
+
+    if (y <= header.offsetHeight || menuOpen) {
+      header.classList.remove('is-hidden');   // near the top, or mobile menu open
+    } else if (delta > 0) {
+      header.classList.add('is-hidden');      // moving further down the page
+    } else {
+      header.classList.remove('is-hidden');   // any scroll back up
+    }
+
+    lastY = y;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
+}
+
 async function initLayout() {
   await Promise.all([
     loadPartial('partials/header.html', 'site-header'),
@@ -102,6 +138,7 @@ async function initLayout() {
   initNavToggle();
   initNewsletterForm();
   setActiveNavLink();
+  initHeaderAutoHide();
 }
 
 document.addEventListener('DOMContentLoaded', initLayout);
