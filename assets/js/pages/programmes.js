@@ -1,13 +1,16 @@
 /**
  * Programmes page — renders full programme list from data/programmes.json,
  * split into two tabs (Executive Courses / Professional Certificate Courses)
- * with a live search over title, description, and targets, and a
- * six-line clamp + expand/collapse toggle on each card's description.
+ * with a live search over title, description, and targets, a six-line
+ * clamp + expand/collapse toggle on each card's description, and hash
+ * links (#executive-courses, #professional-certificate-courses, or a
+ * course id) that switch to the right tab.
  */
 
 let allProgrammes = [];
 let activeTab = 'executive';
 let searchQuery = '';
+
 const TAB_BY_ID = {
   'executive-courses': 'executive',
   'professional-certificate-courses': 'certificate'
@@ -68,14 +71,25 @@ function renderList() {
   count.textContent = `Showing ${filtered.length} of ${tabFiltered.length} programmes`;
 }
 
+function setActiveTab(tabName) {
+  activeTab = tabName;
+  document.querySelectorAll('.programme-tab').forEach(t => {
+    t.classList.toggle('is-active', t.dataset.tab === tabName);
+  });
+  renderList();
+}
+
+function resetSearch() {
+  searchQuery = '';
+  document.getElementById('programmeSearch').value = '';
+}
+
 function initTabs() {
-  const tabs = document.querySelectorAll('.programme-tab');
-  tabs.forEach(tab => {
+  document.querySelectorAll('.programme-tab').forEach(tab => {
     tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('is-active'));
-      tab.classList.add('is-active');
-      activeTab = tab.dataset.tab;
-      renderList();
+      setActiveTab(tab.dataset.tab);
+      // Keep the URL hash in sync with the visible tab (no scroll, no hashchange)
+      history.replaceState(null, '', '#' + tab.id);
     });
   });
 }
@@ -108,41 +122,40 @@ function initDescriptionToggles() {
   });
 }
 
-function setActiveTab(tabName) {
-  activeTab = tabName;
-  document.querySelectorAll('.programme-tab').forEach(t => {
-    t.classList.toggle('is-active', t.dataset.tab === tabName);
-  });
-  renderList();
-}
-
-function initTabs() {
-  document.querySelectorAll('.programme-tab').forEach(tab => {
-    tab.addEventListener('click', () => setActiveTab(tab.dataset.tab));
-  });
-}
-
 function handleHash() {
   const id = decodeURIComponent(location.hash.slice(1));
   if (!id) return;
 
-  // Sub-menu links: switch to the matching tab and clear any search
   if (TAB_BY_ID[id]) {
-    searchQuery = '';
-    document.getElementById('programmeSearch').value = '';
+    // Sub-menu links: switch to the matching tab and clear any search
+    resetSearch();
     setActiveTab(TAB_BY_ID[id]);
   } else {
-    // Deep links to a single course (e.g. programmes.html#certificate-carbon-markets)
+    // Deep link to a single course (e.g. programmes.html#certificate-carbon-markets)
     const course = allProgrammes.find(p => p.id === id);
-    if (course && course.tab !== activeTab) {
-      searchQuery = '';
-      document.getElementById('programmeSearch').value = '';
+    if (course && (course.tab !== activeTab || searchQuery)) {
+      resetSearch();
       setActiveTab(course.tab);
     }
   }
 
   const target = document.getElementById(id);
   if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+async function initProgrammesPage() {
+  try {
+    const res = await fetch('data/programmes.json');
+    allProgrammes = await res.json();
+    renderList();
+    initTabs();
+    initSearch();
+    initDescriptionToggles();
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  } catch (err) {
+    console.error('Could not load programmes:', err);
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initProgrammesPage);
