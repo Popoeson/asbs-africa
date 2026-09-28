@@ -8,6 +8,10 @@
 let allProgrammes = [];
 let activeTab = 'executive';
 let searchQuery = '';
+const TAB_BY_ID = {
+  'executive-courses': 'executive',
+  'professional-certificate-courses': 'certificate'
+};
 
 function renderTargets(targets) {
   return `
