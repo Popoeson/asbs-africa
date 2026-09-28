@@ -242,7 +242,7 @@
     "image": "assets/images/real/programmes/corporate-governance-sustainable-enterprise.jpg"
   },
   {
-    "id": "certificate-sustainable-supply-chain-fundamentals",
+    "id": "sustainable-supply-chain-leadership",
     "tab": "certificate",
     "title": "Certificate in Sustainable Supply Chain Fundamentals",
     "description": "This online program offers a foundational examination of sustainable logistics, green procurement, Scope 3 emission accounting, circular supply chain dynamics, and responsible supplier governance. Delivered through self-paced online modules, real-world case studies, and practical supply chain auditing exercises, participants learn how to measure supply chain carbon footprints, evaluate ethical sourcing standards, streamline green logistics, and implement closed-loop product loops.",
@@ -256,7 +256,7 @@
     "image": "assets/images/real/programmes/certificate-sustainable-supply-chain-fundamentals.jpg"
   },
   {
-    "id": "certificate-green-building-sustainable-infrastructure",
+    "id": "biodiversity-natural-capital-business",
     "tab": "certificate",
     "title": "Certificate in Green Building and Sustainable Infrastructure",
     "description": "This course delivers a comprehensive exploration of sustainable design principles, green rating systems (LEED, BREEAM, EDGE, Envision), embodied carbon analysis, smart building technologies, and climate-resilient civil infrastructure. Combining self-paced interactive online coursework, real-world case study evaluations, lifecycle assessment software labs, and executive design workshops, participants gain practical expertise to lead decarbonization across the life cycle of buildings and urban infrastructure projects.",
@@ -270,7 +270,7 @@
     "image": "assets/images/real/programmes/certificate-green-building-sustainable-infrastructure.jpg"
   },
   {
-    "id": "certificate-renewable-energy-business-fundamentals",
+    "id": "renewable-energy-project-finance",
     "tab": "certificate",
     "title": "Certificate in Renewable Energy Business Fundamentals",
     "description": "This course delivers a rigorous exploration of the commercial value chain in the renewable energy sector. Participants will study market fundamentals, clean energy technologies, bankability assessment, financial modeling basics, revenue models, and risk mitigation strategies across utility-scale and distributed energy resources (DERs). Combining interactive online coursework with practical executive workshop sessions, real-world deal case studies, and financial modeling exercises, the program prepares learners to evaluate project feasibility, structure clean energy deals, and capitalize on emerging green market opportunities.",
@@ -284,7 +284,7 @@
     "image": "assets/images/real/programmes/certificate-renewable-energy-business-fundamentals.jpg"
   },
   {
-    "id": "certificate-climate-risk-analytics",
+    "id": "climate-risk-management-executives",
     "tab": "certificate",
     "title": "Certificate in Climate Risk Analytics",
     "description": "This course delivers a comprehensive, quantitative, and practical framework for analyzing climate risks across physical (acute and chronic) and transition (policy, legal, technology, market) risk dimensions. Participants will learn how to leverage climate datasets (IPCC, NGFS, NASA, Copernicus), apply climate scenario modeling, and assess financial vulnerability. Delivered entirely online through interactive digital modules, hands-on data analytics labs, and real-world case studies, the course empowers learners to evaluate asset-level risk exposure, align with international disclosures (TCFD, ISSB, CSRD), and formulate climate resilience strategies.",
@@ -298,7 +298,7 @@
     "image": "assets/images/real/programmes/certificate-climate-risk-analytics.jpg"
   },
   {
-    "id": "certificate-circular-economy-african-manufacturing",
+    "id": "green-marketing-sustainable-brand-strategy",
     "tab": "certificate",
     "title": "Certificate in Circular Economy for African Manufacturing",
     "description": "This course delivers a comprehensive exploration of circular design, industrial symbiosis, closed-loop supply chains, and resource efficiency within African industrial ecosystems (e.g., textiles, agri-processing, plastics, construction materials, and metals). Combining interactive online learning with hands-on industrial site audits, case studies, and practical design workshops, participants gain actionable skills to redesign production processes, eliminate industrial waste, monetise byproduct streams, and access green industrial financing.",
@@ -312,7 +312,7 @@
     "image": "assets/images/real/programmes/certificate-circular-economy-african-manufacturing.jpg"
   },
   {
-    "id": "certificate-impact-measurement-sroi",
+    "id": "corporate-governance-sustainable-enterprise",
     "tab": "certificate",
     "title": "Certificate in Impact Measurement & SROI",
     "description": "This course delivers a comprehensive, step-by-step guide to measuring impact and calculating SROI. Participants will learn how to build Theory of Change (ToC) models, map social outcomes, assign financial proxies, and apply rigorous adjustments for deadweight, attribution, displacement, and drop-off. Through interactive digital modules, real-world case studies, and hands-on SROI calculation exercises, participants gain the technical mastery needed to formulate credible impact reports and communicate social value effectively to stakeholders, boards, and impact investors.",
@@ -326,7 +326,7 @@
     "image": "assets/images/real/programmes/certificate-impact-measurement-sroi.jpg"
   },
   {
-    "id": "certificate-sustainable-agribusiness-management",
+    "id": "sustainable-agribusiness-leadership",
     "tab": "certificate",
     "title": "Certificate in Sustainable Agribusiness Management",
     "description": "This course delivers an end-to-end operational and strategic perspective on sustainable agriculture. Participants explore regenerative farming models, climate-smart food production, ag-tech integration, sustainable supply chain logistics, and impact finance in agriculture. Combining digital learning modules with hands-on workshops and field-level case studies, the blended format enables participants to apply sustainable practices directly to farming operations, enterprise management, and agricultural investment portfolios.",
@@ -340,7 +340,7 @@
     "image": "assets/images/real/programmes/certificate-sustainable-agribusiness-management.jpg"
   },
   {
-    "id": "certificate-carbon-markets",
+    "id": "net-zero-strategy-carbon-management",
     "tab": "certificate",
     "title": "Certificate in Carbon Markets",
     "description": "This course delivers a comprehensive exploration of both Compliance Carbon Markets (CCMs) and Voluntary Carbon Markets (VCMs). Participants will gain detailed insights into Emission Trading Schemes (ETS), carbon offset project methodologies, Article 6 of the Paris Agreement, credit verification standards, and pricing dynamics. Delivered entirely online through flexible interactive modules, practical case studies, and live expert sessions, the curriculum equips professionals to successfully trade, invest in, develop, or oversee carbon market instruments within modern corporate and financial frameworks.",
@@ -371,7 +371,7 @@
     "id": "certificate-esg-reporting",
     "tab": "certificate",
     "title": "Certificate in ESG Reporting",
-    "description": "This course provides a comprehensive exploration of modern ESG frameworks, data collection methodologies, materiality assessments, and regulatory compliance. Participants will learn how to align organisational strategies with global reporting standards, accurately measure environmental and social metrics, navigate climate-related disclosures, and mitigate greenwashing risks. Combining theoretical foundations with practical case studies and hands-on disclosure drafting, the course equips participants to effectively manage their organisation's ESG journey, from data gathering and analysis to final report preparation, publication, and stakeholder engagement.",
+    "description": "This course provides a comprehensive exploration of modern ESG frameworks, data collection methodologies, materiality assessments, and regulatory compliance. Participants will learn how to align organisational strategies with global reporting standards, accurately measure environmental and social metrics, navigate climate-related disclosures, and mitigate greenwashing renewable-energy-project-finance manage their organisation's ESG journey, from data gathering and analysis to final report preparation, publication, and stakeholder engagement.",
     "targets": [
       "CSR & Sustainability Managers: Professionals responsible for corporate sustainability strategies and ESG disclosures.",
       "Financial & Risk Officers: CFOs, accountants, financial professionals, and risk managers integrating ESG metrics into business reporting.",
