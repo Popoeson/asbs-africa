@@ -12,15 +12,29 @@
   border-bottom: 1px solid #E5E5E5;
 }
 
-.site-header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 24px;
-  max-width: var(--max-width);
-  margin: 0 auto;
+#site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 96px;
+  pointer-events: none; /* wrapper stays in place when the header slides away */
 }
 
+.site-header {
+  position: relative;
+  pointer-events: auto;
+  background: var(--color-white);
+  border-bottom: 1px solid #E5E5E5;
+  transition: transform 0.3s ease;
+}
+
+.site-header.is-hidden {
+  transform: translateY(-100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header { transition: none; }
+}
 /* ---- Nav sub-options ---- */
 .nav-item {
   display: flex;
