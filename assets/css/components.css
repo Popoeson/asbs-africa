@@ -21,6 +21,96 @@
   margin: 0 auto;
 }
 
+/* ---- Nav sub-options ---- */
+.nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.nav-item > a { flex: 1; }
+
+.nav-item__toggle {
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray);
+}
+
+.nav-item__toggle svg { transition: transform 0.25s ease; }
+.nav-item.is-open .nav-item__toggle svg { transform: rotate(180deg); }
+.nav-item.is-open .nav-item__toggle { color: var(--color-navy); }
+
+/* Mobile: animated expand/retract */
+.nav-sub {
+  flex-basis: 100%;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.nav-item.is-open .nav-sub { grid-template-rows: 1fr; }
+
+.nav-sub ul {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.main-nav__links .nav-sub a {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--color-gray);
+  padding: 12px 0 12px 32px;
+  border-left: 3px solid #E5E5E5;
+  margin-left: 0;
+}
+
+.main-nav__links .nav-sub a:hover { color: var(--color-navy); }
+
+@media (min-width: 900px) {
+  .nav-item { position: relative; align-items: center; flex-wrap: nowrap; }
+  .nav-item > a { flex: none; }
+  .nav-item__toggle { width: 28px; height: 28px; }
+
+  .nav-sub {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    padding-top: 14px; /* bridges the hover gap */
+    z-index: 95;
+  }
+
+  .nav-item:hover .nav-sub,
+  .nav-item:focus-within .nav-sub,
+  .nav-item.is-open .nav-sub { display: block; }
+
+  .nav-sub ul {
+    background: var(--color-white);
+    border: 1px solid #E5E5E5;
+    border-radius: var(--radius-card);
+    box-shadow: 0 8px 24px rgba(27, 42, 74, 0.12);
+    padding: 8px 0;
+  }
+
+  .main-nav__links .nav-sub a {
+    padding: 10px 20px;
+    border-left: none;
+  }
+
+  .main-nav__links .nav-sub a:hover { background: var(--color-offwhite); }
+}
+
+/* Keep anchored sections clear of the sticky header */
+section[id],
+.programme-tab[id] { scroll-margin-top: 110px; }
+
 .brand {
   display: flex;
   align-items: center;
