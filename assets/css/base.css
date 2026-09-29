@@ -6,14 +6,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter :wght@400;500;600;700&display=swap'); */
 
 :root {
-  /* Brand colors — from Step 2 UI/UX Design doc */
+  /* Brand colors — from Step 2 UI/UX Design doc 
   --color-navy: #1B2A4A;
   --color-navy-dark: #121d33;
   --color-sage: #8FB84C;
   --color-sage-dark: #729a3a;
   --color-gray: #6E7175;
   --color-white: #FFFFFF;
+  --color-offwhite: #F5F5F5;*/
+
+:root {
+  /* Brand colors — from Step 2 UI/UX Design doc */
+  --color-navy: #1B2A4A;
+  --color-navy-dark: #121d33;
+  --color-sage: #67B803;
+  --color-sage-dark: #549602;
+  --color-gray: #6E7175;
+  --color-white: #FFFFFF;
   --color-offwhite: #F5F5F5;
+  ...
 
   /* Typography */
   --font-heading: 'Oswald', sans-serif;
