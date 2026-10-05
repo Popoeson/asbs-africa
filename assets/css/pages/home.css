@@ -312,3 +312,13 @@
   width: auto;
   object-fit: contain;
 }
+
+.partners-strip__logo {
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+.partners-strip__logo:hover,
+.partners-strip__logo:focus-visible {
+  opacity: 0.8;
+}
