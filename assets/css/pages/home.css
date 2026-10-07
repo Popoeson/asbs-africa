@@ -8,8 +8,14 @@
   min-height: 640px;
   display: flex;
   align-items: flex-end;
-  background: url('../../images/real/hero/hero-homepage.jpg') center/cover no-repeat;
+  background: url('../../images/real/hero/hero-mobile.webp') center/cover no-repeat;
   color: var(--color-white);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url('../../images/real/hero/hero-homepage.webp');
+  }
 }
 
 .hero::before {
