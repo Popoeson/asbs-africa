@@ -14,6 +14,7 @@
   --color-gray: #6E7175;
   --color-white: #FFFFFF;
   --color-offwhite: #F5F5F5;
+  --color-sage-aa: #3F7A00;
 
   /* Typography */
   --font-heading: 'Oswald', sans-serif;
@@ -106,13 +107,22 @@ button {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-sage);
+  color: var(--color-sage-aa);
   font-size: 0.85rem;
   margin-bottom: 12px;
 }
 
+.bg-navy .eyebrow,
+.hero .eyebrow {
+  color: var(--color-sage);
+}
+
+.bg-sage .eyebrow {
+  color: var(--color-white);
+}
+
 .bg-navy { background: var(--color-navy); color: var(--color-white); }
-.bg-sage { background: var(--color-sage); color: var(--color-white); }
+.bg-sage { background: var(--color-sage-aa); color: var(--color-white); }
 .bg-offwhite { background: var(--color-offwhite); }
 
 .text-center { text-align: center; }
