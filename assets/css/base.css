@@ -11,10 +11,11 @@
   --color-navy-dark: #121d33;
   --color-sage: #67B803;
   --color-sage-dark: #549602;
+  --color-sage-aa: #3F7A00;        /* accessible green: use for text on white and buttons with white text */
+  --color-sage-aa-dark: #336600;
   --color-gray: #6E7175;
   --color-white: #FFFFFF;
   --color-offwhite: #F5F5F5;
-  --color-sage-aa: #3F7A00;
 
   /* Typography */
   --font-heading: 'Oswald', sans-serif;
@@ -112,6 +113,7 @@ button {
   margin-bottom: 12px;
 }
 
+/* Bright green is fine on navy; white on the green band */
 .bg-navy .eyebrow,
 .hero .eyebrow {
   color: var(--color-sage);
