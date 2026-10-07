@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  min-height: 96px;
+  min-height: 103px; /* 70px logo + 32px padding + 1px border; prevents layout shift */
   pointer-events: none; /* wrapper stays in place when the header slides away */
 }
 
@@ -285,12 +285,12 @@ section[id],
 }
 
 .btn-primary {
-  background: var(--color-sage);
+  background: var(--color-sage-aa);
   color: var(--color-white);
 }
 
 .btn-primary:hover {
-  background: var(--color-sage-dark);
+  background: var(--color-sage-aa-dark);
 }
 
 .btn-secondary {
@@ -366,7 +366,7 @@ section[id],
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-sage-dark);
+  color: var(--color-sage-aa);
   margin-bottom: 8px;
 }
 
@@ -395,7 +395,7 @@ section[id],
   .site-footer { padding-top: var(--section-padding-desktop); }
 }
 
-.site-footer h4 {
+.site-footer h3 {
   color: var(--color-white);
   font-size: 1rem;
   letter-spacing: 0.04em;
@@ -463,7 +463,7 @@ section[id],
 }
 
 .newsletter-form input::placeholder {
-  color: #8891A3;
+  color: #9AA2B3;
 }
 
 .social-links {
@@ -491,5 +491,5 @@ section[id],
   margin-top: 48px;
   padding-top: 24px;
   font-size: 0.85rem;
-  color: #8891A3;
+  color: #9AA2B3;
 }
