@@ -98,6 +98,10 @@ function initHeaderAutoHide() {
   const header = document.querySelector('.site-header');
   if (!header) return;
 
+  // Cache the height once (and on resize) so scrolling never forces a layout read
+  let headerH = header.offsetHeight;
+  window.addEventListener('resize', () => { headerH = header.offsetHeight; }, { passive: true });
+
   const THRESHOLD = 4; // px of movement before reacting; keeps it responsive but ignores jitter
   let lastY = window.scrollY;
   let ticking = false;
@@ -111,7 +115,7 @@ function initHeaderAutoHide() {
 
     const menuOpen = document.getElementById('mainNav')?.classList.contains('is-open');
 
-    if (y <= header.offsetHeight || menuOpen) {
+    if (y <= headerH || menuOpen) {
       header.classList.remove('is-hidden');   // near the top, or mobile menu open
     } else if (delta > 0) {
       header.classList.add('is-hidden');      // moving further down the page
