@@ -8,7 +8,7 @@
   min-height: 640px;
   display: flex;
   align-items: flex-end;
-  background: url('../../images/real/hero/hero-homepage.webp') center/cover no-repeat;
+  background: url('../../images/real/hero/hero-mobile.webp') center/cover no-repeat;
   color: var(--color-white);
 }
 
